@@ -1,7 +1,9 @@
 <template>
   <div>
     <LayoutNavigationBar />
-    <Nuxt />
+    <div class="mainContent">
+      <Nuxt />
+    </div>
     <LayoutFooter />
   </div>
 </template>
@@ -53,5 +55,10 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+
+.mainContent {
+  max-width: calc(40rem + 40vw);
+  margin: auto;
 }
 </style>
