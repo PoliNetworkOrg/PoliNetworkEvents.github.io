@@ -85,7 +85,7 @@
           ></iframe>
         </div>
       </div>
-      <p class="text_big">FAQ</p>
+      <p class="text_big" style="padding-top: 20px;">FAQ</p>
       <LayoutQuestion
         question="Perché c'è un limite al numero di partecipanti?"
         answer="A causa delle restrizioni anti Covid-19 il locale ha imposto questo limite"
