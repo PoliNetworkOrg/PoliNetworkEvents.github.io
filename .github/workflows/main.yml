@@ -41,9 +41,6 @@ jobs:
         
       - name: 👨🏻‍💻 Install dependencies (3)
         run: npm install
-        
-      - name: 👨🏻‍💻 Install dependencies (4)
-        run: npm ci
 
       - name: 👨‍🏭️ Generate
         run: npm run generate
