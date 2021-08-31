@@ -93,6 +93,12 @@
         </div>
       </div>
       <p class="text_big" style="padding-top: 20px">FAQ</p>
+      <div v-for="question in questions" :key="question.id">
+        <LayoutQuestion
+          :question="question.question"
+          :answer="question.answer"
+        />
+      </div>
       <LayoutQuestion
         question="Perché c'è un limite al numero di partecipanti?"
         answer="A causa delle restrizioni anti Covid-19 il locale ha imposto questo limite"
@@ -109,7 +115,17 @@
   </div>
 </template>
 
-
+<script lang="ts">
+import Vue from "vue";
+import questions2 from "~/assets/json/mma2021_questions.json";
+export default Vue.extend({
+  data() {
+    return {
+      questions: questions2,
+    }
+  },
+});
+</script>
 
 <style scoped>
 .dettaglievento {
