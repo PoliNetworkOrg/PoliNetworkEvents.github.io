@@ -52,28 +52,32 @@ export default {
 
 	modules: [
 		'@nuxtjs/i18n',
+		'nuxt-i18n-easy',
 	],
 	i18n: {
 		strategy: 'prefix',
 		langDir: 'locales/',
 		locales: [
-		  {
-			code: 'en',
-			iso: 'en-US',
-			file: 'en-US.js',
-			isCatchallLocale: true
-		  },
-		  {
-			code: 'it',
-			iso: 'it-IT',
-			file: 'it-IT.js'
-		  }
+			{
+				code: 'en',
+				iso: 'en-US',
+				file: 'en-US.js',
+				isCatchallLocale: true
+			},
+			{
+				code: 'it',
+				iso: 'it-IT',
+				file: 'it-IT.js'
+			}
 		],
 		defaultLocale: 'it',
 		vueI18n: {
-		  fallbackLocale: 'it'
+			fallbackLocale: 'it'
 		}
-	  },
+	},
+	i18nEasy: {
+		sourceLanguage: 'it',
+	},
 
 	// Build Configuration: https://go.nuxtjs.dev/config-build
 	build: {
