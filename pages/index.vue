@@ -1,8 +1,5 @@
 <template>
+    <div>
+        <PagesMain language="it" />
+    </div>
 </template>
-
-<script>
-export default {
-  middleware: 'redirect'
-}
-</script>
