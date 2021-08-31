@@ -95,22 +95,10 @@
       <p class="text_big" style="padding-top: 20px">FAQ</p>
       <div v-for="question in questions" :key="question.id">
         <LayoutQuestion
-          :question="question.question"
-          :answer="question.answer"
+          :question="$t(question.question)"
+          :answer="$t(question.answer)"
         />
       </div>
-      <LayoutQuestion
-        question="Perché c'è un limite al numero di partecipanti?"
-        answer="A causa delle restrizioni anti Covid-19 il locale ha imposto questo limite"
-      />
-      <LayoutQuestion
-        question="Perché possono partecipare soltanto Admin e Matricole?"
-        answer="A causa del limite al numero di persone abbiamo deciso di dare priorità alle matricole, che potranno anche confrontarsi con noi Admin"
-      />
-      <LayoutQuestion
-        question="Quali sono e come verranno trattati i dati inviati tramite il form di iscrizione?"
-        answer="Il form raccoglie il Codice Persona e il tag Telegram o numero di telefono. Entro 24 ore dal termine dell'evento tutti i dati saranno cancellati. Utilizzeremo queste informazioni per accertare l'appartenenza al Politecnico di Milano come Matricole o Admin e per mandare comunicazioni inerenti l'evento. I dati sono gestiti da Diego Aldarese, organizzatore dell'evento"
-      />
     </div>
   </div>
 </template>
