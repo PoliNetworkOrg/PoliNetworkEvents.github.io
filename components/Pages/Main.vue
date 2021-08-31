@@ -89,76 +89,24 @@
         </div>
       </div>
       <p class="text_big">FAQ</p>
-      <p class="question">Perch&eacute; il limite al numero di partecipanti?</p>
-      <p class="answer">
-        A causa delle restrizioni anti Covid-19 il locale ha imposto questo
-        limite
-      </p>
-      <p class="question">
-        Perch&eacute; possono partecipare soltanto Admin e Matricole?
-      </p>
-      <p class="answer">
-        A causa del limite al numero di persone abbiamo deciso di dare priorità
-        alle matricole, che potranno anche confrontarsi con noi Admin
-      </p>
-    </div>
-
-    <div v-if="language == 'en'" class="dettaglievento">
-      <p class="text_big">Event Details</p>
-      <div class="flex">
-        <div>
-          <iframe
-            class="media"
-            src="https://maps.google.com/maps?q=bruxelles%20pub&t=&z=15&ie=UTF8&iwloc=&output=embed"
-            frameborder="20"
-            scrolling="no"
-          ></iframe>
-        </div>
-        <div>
-          <p class="text_small" style="padding-top: 20px;">Time: 21:00</p>
-          <p class="text_small">Maximum number of participants: 60</p>
-          <div
-            class="button"
-            style="font-weight: bold;"
-            onclick="location.href='https://forms.office.com/r/S63ZertabZ'"
-          >
-            Click here to join
-          </div>
-          <div
-            class="button"
-            style="font-weight: bold;"
-            onclick="location.href='https://t.me/joinchat/AhIXEiN5s1BlMDVk'"
-          >
-            Join this channel for updates
-          </div>
-          <div
-            class="button"
-            style="font-weight: bold;"
-            onclick="location.href='https://t.me/diegoaldarese'"
-          >
-            For further information ask here
-          </div>
-        </div>
-        <div>
-          <img
-            class="media"
-            src="https://raw.githubusercontent.com/PoliNetwork/Logo/master/Logo.png"
-          />
-        </div>
-      </div>
-      <p class="text_big">FAQ</p>
       <LayoutQuestion
-        question="Why the limit on the number of participants?"
-        answer="Because of restrictions against Covid-19 the venue set this limit"
+        question="Perché c'è un limite al numero di partecipanti?"
+        answer="A causa delle restrizioni anti Covid-19 il locale ha imposto questo limite"
       />
-       <LayoutQuestion
-        question="Perch&eacute; possono partecipare soltanto Admin e Matricole?"
+      <LayoutQuestion
+        question="Perché possono partecipare soltanto Admin e Matricole?"
         answer="A causa del limite al numero di persone abbiamo deciso di dare priorità
         alle matricole, che potranno anche confrontarsi con noi Admin"
       />
-   
+      <LayoutQuestion
+        question="Quali sono e come verranno trattati i dati inviati tramite il form di iscrizione?"
+        answer="Il form raccoglie il Codice Persona e il tag Telegram o numero di telefono.
+        Entro 24 ore dal termine dell'evento tutti i dati saranno cancellati.
+        Utilizzeremo queste informazioni per accertare l'appartenenza al Politecnico di Milano come Matricole o Admin
+        e per mandare comunicazioni inerenti l'evento.
+        I dati sono gestiti da Diego Aldarese, organizzatore dell'evento"
+      />
     </div>
-
     <LayoutFooter :language="language" />
   </div>
 </template>
