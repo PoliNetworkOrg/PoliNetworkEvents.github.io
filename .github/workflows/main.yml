@@ -40,6 +40,9 @@ jobs:
         run: npm i fsevents@latest -f --save-optional
         
       - name: 👨🏻‍💻 Install dependencies (3)
+        run: npm install
+        
+      - name: 👨🏻‍💻 Install dependencies (4)
         run: npm ci
 
       - name: 👨‍🏭️ Generate
