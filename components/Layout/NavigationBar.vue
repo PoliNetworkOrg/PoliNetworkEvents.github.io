@@ -4,7 +4,7 @@
         <div class="container">
             <a class="navbar-brand" :href="'/' + language + '/'">
                 <img src="/img/icon.png" style="width:calc(20px + 0.1rem);">
-                <span>&nbsp;PoliNetwork</span>
+                <span>&nbsp;PoliNetwork Events</span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                     aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,8 +21,8 @@
        
 	   
                     <li class="nav-item">
-                        <a v-if="language == 'it' " class="nav-link" :href="'/' + language + '/contatti/'">Contatti 💬</a>
-                        <a v-if="language == 'en' " class="nav-link" :href="'/' + language + '/contatti/'">Contacts 💬</a>
+                        <a v-if="language == 'it' " class="nav-link" :href="'https://polinetwork.github.io/' + language + '/learnmore/about_us/'">Contatti 💬</a>
+                        <a v-if="language == 'en' " class="nav-link" :href="'https://polinetwork.github.io/' + language + '/learnmore/about_us/'">Contacts 💬</a>
                     </li>
                     <li class="nav-item">
                         <div style="border:1px solid #00000029; margin:auto; border-radius: 10px;">
