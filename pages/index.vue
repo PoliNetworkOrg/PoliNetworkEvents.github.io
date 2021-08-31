@@ -37,34 +37,34 @@
     <!-- /.container -->
 
     <div  class="dettaglievento">
-      <p class="text_big">{{$t('Dettagli Evento')</p>
+      <p class="text_big">{{$t('Dettagli Evento')}}</p>
       <div class="flex">
         <div>
           <img class="media" src="/img/mma2k21logo.png" />
         </div>
         <div>
-          <p class="text_small" style="padding-top: 20px;">{{$t('Quando: 16/09/2021 ore 21:00')</p>
-          <p class="text_small">{{$t('Numero massimo di partecipanti: 60')</p>
+          <p class="text_small" style="padding-top: 20px;">{{$t('Quando: 16/09/2021 ore 21:00')}}</p>
+          <p class="text_small">{{$t('Numero massimo di partecipanti: 60')}}</p>
           <div
             class="button"
             style="font-weight: bold;"
             onclick="location.href='https://forms.office.com/r/S63ZertabZ'"
           >
-            {{$t('Clicca qui per iscriverti')
+            {{$t('Clicca qui per iscriverti')}}
           </div>
           <div
             class="button"
             style="font-weight: bold;"
             onclick="location.href='https://t.me/joinchat/AhIXEiN5s1BlMDVk'"
           >
-            {{$t('Entra qui per aggiornamenti')
+            {{$t('Entra qui per aggiornamenti')}}
           </div>
           <div
             class="button"
             style="font-weight: bold;"
             onclick="location.href='https://t.me/diegoaldarese'"
           >
-            {{$t('Per ulteriori informazioni chiedi qui')
+            {{$t('Per ulteriori informazioni chiedi qui')}}
           </div>
         </div>
         <div>
