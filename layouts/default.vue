@@ -60,5 +60,6 @@ html {
 .mainContent {
   max-width: calc(40rem + 40vw);
   margin: auto;
+  overflow: auto;
 }
 </style>

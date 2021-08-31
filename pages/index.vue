@@ -53,32 +53,34 @@
           <img class="media" src="/img/mma2k21logo.png" />
         </div>
         <div>
-          <p class="text_small" style="padding-top: 20px">
+          <p class="text_medium" style="padding-top: 20px">
             {{ $t("Quando: 16/09/2021 ore 21:00") }}
           </p>
-          <p class="text_small">
+          <p class="text_medium">
             {{ $t("Numero massimo di partecipanti: 60") }}
           </p>
-          <div
-            class="button"
-            style="font-weight: bold"
-            onclick="location.href='https://forms.office.com/r/S63ZertabZ'"
-          >
-            {{ $t("Clicca qui per iscriverti") }}
-          </div>
-          <div
-            class="button"
-            style="font-weight: bold"
-            onclick="location.href='https://t.me/joinchat/AhIXEiN5s1BlMDVk'"
-          >
-            {{ $t("Entra qui per aggiornamenti") }}
-          </div>
-          <div
-            class="button"
-            style="font-weight: bold"
-            onclick="location.href='https://t.me/diegoaldarese'"
-          >
-            {{ $t("Per ulteriori informazioni chiedi qui") }}
+          <div class="buttonsEvent">
+            <div
+              class="button"
+              style="font-weight: bold"
+              onclick="location.href='https://forms.office.com/r/S63ZertabZ'"
+            >
+              {{ $t("Clicca qui per iscriverti") }} 📑
+            </div>
+            <div
+              class="button"
+              style="font-weight: bold"
+              onclick="location.href='https://t.me/joinchat/AhIXEiN5s1BlMDVk'"
+            >
+              {{ $t("Entra qui per aggiornamenti") }} 📣
+            </div>
+            <div
+              class="button"
+              style="font-weight: bold"
+              onclick="location.href='https://t.me/diegoaldarese'"
+            >
+              {{ $t("Per ulteriori informazioni chiedi qui") }} ✍
+            </div>
           </div>
         </div>
         <div>
@@ -110,32 +112,52 @@
 
 
 <style scoped>
+.dettaglievento {
+  overflow: auto;
+}
+
+.buttonsEvent {
+  padding-top: 0.2rem;
+  overflow: auto;
+}
+
 .text_big {
   text-align: center;
   font-weight: bold;
   font-size: calc(4px + 1.27rem + 0.77vw);
 }
+
+.text_medium {
+  text-align: center;
+  padding-left: calc(4.5px + 1rem + 0.7vw);
+  padding-right: calc(4.5px + 1rem + 0.7vw);
+  font-size: calc(1.5px + 1.02rem + 0.4vw);
+}
 .text_small {
   text-align: center;
   padding-left: calc(5px + 0.5rem + 0.6vw);
   padding-right: calc(5px + 0.5rem + 0.6vw);
+  font-size: calc(1px + 1rem + 0.3vw);
 }
 .flex {
   display: flex;
   text-align: center;
   align-items: center;
   justify-content: space-evenly;
+  overflow: auto;
 }
 @media (max-width: 1000px) {
   .flex {
     flex-direction: column;
     min-width: 370px;
+    overflow: auto;
   }
 }
 .media {
   border-radius: 20px;
   width: 100%;
   height: 20rem;
+  overflow: auto;
 }
 .button {
   margin: 10px;
