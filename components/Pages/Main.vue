@@ -52,7 +52,7 @@
           <img class="media" src="/img/mma2k21logo.png" />
         </div>
         <div>
-          <p class="text_small" style="padding-top: 20px;">Orario: 21:00</p>
+          <p class="text_small" style="padding-top: 20px;">Quando: 16/09/2021 ore 21:00</p>
           <p class="text_small">Numero massimo di partecipanti: 60</p>
           <div
             class="button"
