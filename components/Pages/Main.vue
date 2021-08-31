@@ -49,12 +49,7 @@
       <p class="text_big">Dettagli Evento</p>
       <div class="flex">
         <div>
-          <iframe
-            class="media"
-            src="https://maps.google.com/maps?q=bruxelles%20pub&t=&z=15&ie=UTF8&iwloc=&output=embed"
-            frameborder="20"
-            scrolling="no"
-          ></iframe>
+          <img class="media" src="/img/mma2k21logo.png" />
         </div>
         <div>
           <p class="text_small" style="padding-top: 20px;">Orario: 21:00</p>
@@ -82,10 +77,12 @@
           </div>
         </div>
         <div>
-          <img
+          <iframe
             class="media"
-            src="https://raw.githubusercontent.com/PoliNetwork/Logo/master/Logo.png"
-          />
+            src="https://maps.google.com/maps?q=bruxelles%20pub&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            frameborder="20"
+            scrolling="no"
+          ></iframe>
         </div>
       </div>
       <p class="text_big">FAQ</p>
@@ -134,17 +131,15 @@ export default {
   padding-right: calc(5px + 0.5rem + 0.6vw);
 }
 .flex {
-  margin: auto;
-  text-align: center;
-  max-width: 60rem;
   display: flex;
+  text-align: center;
   align-items: center;
-  justify-content: center;
-  flex-direction: row;
+  justify-content: space-evenly;
 }
 @media (max-width: 1000px) {
   .flex {
     flex-direction: column;
+    min-width: 370px;
   }
 }
 .media {
