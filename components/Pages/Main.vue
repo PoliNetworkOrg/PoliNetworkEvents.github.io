@@ -19,7 +19,7 @@
               by PoliNetwork
             </a>
             <a v-if="language == 'en'" href="https://polinetwork.github.io/en/">
-              by PoliNetwork
+              by PoliNetwork ciao
             </a>
           </h5>
           <div></div>
