@@ -26,7 +26,7 @@
             <div class="container6">
               <p class="text_small">
                 <span>
-                  📌 {{$t('L\'evento annuale organizzato da PoliNetwork con Matricole ed Admin di tutte le facoltà')}}
+                  📌 {{$t("L'evento annuale organizzato da PoliNetwork con Matricole ed Admin di tutte le facoltà")}}
                 </span>
               </p>
             </div>
