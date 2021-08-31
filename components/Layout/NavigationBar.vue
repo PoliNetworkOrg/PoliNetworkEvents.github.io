@@ -15,15 +15,14 @@
                     <li class="nav-item active">
                         <a class="nav-link" :href="'/' + language + '/'">
                             Home 🏠
-                            <span class="sr-only">(current)</span>
+                            <span class="sr-only">{{$t('(current)')}}</span>
                         </a>
                     </li>
        
 	   
                     <li class="nav-item">
-                        <a v-if="language == 'it' " class="nav-link" :href="'https://polinetwork.github.io/' + language + '/learnmore/about_us/'">Contatti 💬</a>
-                        <a v-if="language == 'en' " class="nav-link" :href="'https://polinetwork.github.io/' + language + '/learnmore/about_us/'">Contacts 💬</a>
-                    </li>
+                        <a  class="nav-link" :href="'https://polinetwork.github.io/' + language + '/learnmore/about_us/'">{{$t('Contatti')}} 💬</a>
+                     </li>
                     <li class="nav-item">
                         <div style="border:1px solid #00000029; margin:auto; border-radius: 10px;">
                             <table style="display: inline;">

@@ -8,5 +8,7 @@ export default {
   'Numero massimo di partecipanti: 60': 'Numero massimo di partecipanti: 60',
   'Per ulteriori informazioni chiedi qui': 'Per ulteriori informazioni chiedi qui',
   'Quando: 16/09/2021 ore 21:00': 'Quando: 16/09/2021 ore 21:00',
-  'L\'evento annuale organizzato da PoliNetwork con Matricole ed Admin di tutte le facoltà': 'L\'evento annuale organizzato da PoliNetwork con Matricole ed Admin di tutte le facoltà'
+  'L\'evento annuale organizzato da PoliNetwork con Matricole ed Admin di tutte le facoltà': 'L\'evento annuale organizzato da PoliNetwork con Matricole ed Admin di tutte le facoltà',
+  '(current)': '(current)',
+  Contatti: 'Contatti'
 }
