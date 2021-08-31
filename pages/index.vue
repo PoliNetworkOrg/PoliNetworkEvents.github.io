@@ -83,8 +83,7 @@
       />
       <LayoutQuestion
         question="Perché possono partecipare soltanto Admin e Matricole?"
-        answer="A causa del limite al numero di persone abbiamo deciso di dare priorità"
-        alle matricole, che potranno anche confrontarsi con noi Admin"
+        answer="A causa del limite al numero di persone abbiamo deciso di dare priorità alle matricole, che potranno anche confrontarsi con noi Admin"
       />
       <LayoutQuestion
         question="Quali sono e come verranno trattati i dati inviati tramite il form di iscrizione?"
