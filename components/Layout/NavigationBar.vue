@@ -43,14 +43,3 @@
     </nav>
 </template>
 
-<script>
-export default {
-    props: {
-        language:{
-            type:String,
-
-			required:true
-        }
-    }
-}
-</script>

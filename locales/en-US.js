@@ -11,5 +11,7 @@ export default {
   'Quando: 16/09/2021 ore 21:00': 'When: 09/16/2021 at 21:00',
   'L\'evento annuale organizzato da PoliNetwork con Matricole ed Admin di tutte le facoltà': 'The annual event organized by PoliNetwork with Freshmen and Admin of all faculties',
   '(current)': '(current)',
-  Contatti: 'Contacts' // contact // touch // connection // connexion
+  Contatti: 'Contacts',
+  'Questo sito non è affiliato al Politecnico di Milano': 'This site is not affiliated with the Politecnico di Milano',
+  'Tutti i nostri contatti e le nostre pagine social si trovano facilmente sul nostro': 'All our contacts and our social pages can be easily found on ours'
 }

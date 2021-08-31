@@ -1,6 +1,8 @@
 <template>
     <div>
+		<LayoutNavigationBar  />
         <Nuxt />
+		     <LayoutFooter />
     </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <LayoutNavigationBar :language="$i18n.locale" />
+
 
     <!-- Page Content -->
     <div class="container3">
@@ -90,7 +90,7 @@
         answer="Il form raccoglie il Codice Persona e il tag Telegram o numero di telefono. Entro 24 ore dal termine dell'evento tutti i dati saranno cancellati. Utilizzeremo queste informazioni per accertare l'appartenenza al Politecnico di Milano come Matricole o Admin e per mandare comunicazioni inerenti l'evento. I dati sono gestiti da Diego Aldarese, organizzatore dell'evento"
       />
     </div>
-    <LayoutFooter :language="$i18n.locale" />
+
   </div>
 </template>
 
