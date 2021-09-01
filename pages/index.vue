@@ -8,10 +8,10 @@
         style="
           max-width: 100%;
           border: none;
-          margin-top: 10px;
-          margin-bottom: 10px;
+          margin-top: 5px;
+          margin-bottom: 5px;
           padding-bottom: calc(10px + 1rem);
-          padding-top: calc(2px + 5rem);
+          padding-top: calc(2px + 0.5vw);
         "
       >
         <div style="text-align: center">
