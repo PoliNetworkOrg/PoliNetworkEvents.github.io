@@ -10,7 +10,7 @@ export default {
 	'e sarà data priorità ad Admin e Matricole': 'and Admins and Freshmen will be prioritized',
 	'Per ulteriori informazioni chiedi qui': 'For more information ask here',
 	'Quando: 16/09/2021 ore 21:00': 'When: 09/16/2021 at 21:00',
-	'L\'evento annuale organizzato da PoliNetwork con Matricole ed Admin di tutte le facoltà': 'The annual event organized by PoliNetwork with Freshmen and Admin of all faculties',
+	'L\'evento annuale organizzato da PoliNetwork con Matricole ed Admin di tutte le facoltà. Un\'occasione per incontrarsi, chiacchierare, conoscersi davanti a una birra e stringere amicizie per affrontare insieme il nuovo percorso di studio, ma anche per farci qualsiasi domanda!': 'The annual event organized by PoliNetwork with Freshmen and Admin of all faculties. An opportunity to meet, chat, get to know each other over a beer and make friends to face the new study path together, but also to ask any questions!',
 	'(current)': '(current)',
 	'Perché c\'è un limite al numero di partecipanti?': 'Why is there a limit on the number of participants?',
 	'A causa delle restrizioni anti Covid-19 il locale ha imposto questo limite': 'Because of restrictions against Covid-19, the venue set this limit',
