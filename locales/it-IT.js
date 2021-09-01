@@ -25,4 +25,5 @@ export default {
 	'Scrivi all\'organizzatore': 'Scrivi all\'organizzatore',
 	'cliccando qui': 'cliccando qui',
 	'sito web principale': 'sito web principale',
+	"Il numero massimo di partecipanti è limitato e sarà data priorità ad Admin e Matricole" : "Il numero massimo di partecipanti è limitato e sarà data priorità ad Admin e Matricole"
 }

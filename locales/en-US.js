@@ -26,4 +26,5 @@ export default {
 	'Scrivi all\'organizzatore': 'Text the organizer by',
 	'cliccando qui': 'clicking here',
 	'sito web principale': 'main website',
+	"Il numero massimo di partecipanti è limitato e sarà data priorità ad Admin e Matricole" : "The maximum number of participants is limited and priority will be given to Admin and Freshmen"
 }
