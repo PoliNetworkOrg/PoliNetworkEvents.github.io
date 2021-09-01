@@ -60,7 +60,7 @@
             👥 {{ $t("Numero massimo di partecipanti: 60") }}
           </p>
           <div class="buttonsEvent">
-            <a href="https://forms.office.com/r/S63ZertabZ" class="buttonLink">
+            <a href="https://forms.office.com/r/S63ZertabZ" target="_blank" class="buttonLink">
               <LayoutButton
                 >{{ $t("Clicca qui per iscriverti") }} 📑</LayoutButton
               >
