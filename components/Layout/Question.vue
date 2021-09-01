@@ -27,9 +27,9 @@ export default {
   text-align: left;
   font-weight: bold;
   font-size: 20px;
-  padding-left: 5%;
+
 }
 .answer {
-  padding-left: 5%;
+/* empty */
 }
 </style>
