@@ -8,17 +8,17 @@
         style="
           max-width: 100%;
           border: none;
-          margin-top: 5px;
-          margin-bottom: 5px;
-          padding-bottom: calc(10px + 1rem);
-          padding-top: calc(2px + 0.5vw);
+          margin-top: calc(2rem + 2vw) !important;
+          margin-bottom: calc(1rem + 2vw) !important;
+          padding-bottom: 0px;
+          padding-top: 0px;
         "
       >
         <div style="text-align: center">
           <h2 class="text_big">
-            <span>{{ $t("Meet My Admin") }}</span>
+            <span>{{ $t("Meet My Admin") }} </span>
           </h2>
-          <h5 style="font-size: calc(1px + 1.1rem + 0.6vw)">
+          <h5 style="font-size: calc(0.5px + 1.05rem + 0.5vw)">
             <a :href="'https://polinetwork.github.io/' + $i18n.locale">
               by PoliNetwork
             </a>
@@ -31,7 +31,6 @@
             <div class="container6">
               <p class="text_small">
                 <span>
-                  📌
                   {{
                     $t(
                       "L'evento annuale organizzato da PoliNetwork con Matricole ed Admin di tutte le facoltà"
@@ -45,55 +44,48 @@
       </header>
     </div>
     <!-- /.container -->
-
+    <hr />
     <div class="dettaglievento">
       <p class="text_big">{{ $t("Dettagli Evento") }}</p>
+      <div style="padding: 0.2rem"></div>
       <div class="flex">
         <div>
           <img class="media" src="/img/mma2k21logo.png" />
         </div>
         <div>
           <p class="text_medium" style="padding-top: 20px">
-            📅	 {{ $t("Quando: 16/09/2021 ore 21:00") }}
+            📅 {{ $t("Quando: 16/09/2021 ore 21:00") }}
           </p>
           <p class="text_medium">
-           👥 {{ $t("Numero massimo di partecipanti: 60") }}
+            👥 {{ $t("Numero massimo di partecipanti: 60") }}
           </p>
           <div class="buttonsEvent">
-            <div
-              class="button"
-              style="font-weight: bold"
-              onclick="location.href='https://forms.office.com/r/S63ZertabZ'"
-            >
-              {{ $t("Clicca qui per iscriverti") }} 📑
-            </div>
-            <div
-              class="button"
-              style="font-weight: bold"
-              onclick="location.href='https://t.me/joinchat/AhIXEiN5s1BlMDVk'"
-            >
-              {{ $t("Entra qui per aggiornamenti") }} 📣
-            </div>
-            <div
-              class="button"
-              style="font-weight: bold"
-              onclick="location.href='https://t.me/diegoaldarese'"
-            >
-              {{ $t("Per ulteriori informazioni chiedi qui") }} ✍
-            </div>
+            <a href="https://forms.office.com/r/S63ZertabZ" class="buttonLink">
+              <LayoutButton
+                >{{ $t("Clicca qui per iscriverti") }} 📑</LayoutButton
+              >
+            </a>
+            <a href="https://t.me/joinchat/AhIXEiN5s1BlMDVk" class="buttonLink">
+              <LayoutButton>
+                {{ $t("Entra qui per aggiornamenti") }} 📣
+              </LayoutButton>
+            </a>
+            <a href="https://t.me/diegoaldarese" class="buttonLink">
+              <LayoutButton>
+                {{ $t("Per ulteriori informazioni chiedi qui") }} ✍
+              </LayoutButton>
+            </a>
           </div>
         </div>
         <div>
-          <iframe
-            class="media"
-            src="https://maps.google.com/maps?q=bruxelles%20pub&t=&z=15&ie=UTF8&iwloc=&output=embed"
-            frameborder="20"
-            scrolling="no"
-          ></iframe>
+          <LayoutMap
+            where="Brasserie Bruxelles Pub Milano"
+            title="📌 Brasserie Bruxelles Pub Milano"
+          ></LayoutMap>
         </div>
       </div>
-	  <br />
-	  <hr />
+      <br />
+      <hr />
       <p class="text_big" style="padding-top: 20px">FAQ</p>
       <div v-for="question in questions" :key="question.id">
         <LayoutQuestion
@@ -112,19 +104,25 @@ export default Vue.extend({
   data() {
     return {
       questions: questions2,
-    }
+    };
   },
 });
 </script>
 
 <style scoped>
 .dettaglievento {
-  overflow: auto;
+  overflow: hidden;
+  padding-top: 1rem;
+}
+
+.buttonLink {
+  padding: 10px;
 }
 
 .buttonsEvent {
   padding-top: 0.2rem;
   overflow: auto;
+  padding: 1rem;
 }
 
 .text_big {
@@ -160,28 +158,10 @@ export default Vue.extend({
   }
 }
 .media {
-  border-radius: 20px;
   width: 100%;
-  height: 20rem;
+  height: auto;
   overflow: auto;
-}
-.button {
-  margin: 10px;
-  overflow: hidden;
-  border-radius: 0.6em;
-  padding: 1em 2em;
-  background-color: #1156ae;
-  color: white;
-  cursor: pointer;
-  border: 0;
-  box-shadow: 0 10px 20px 0 rgb(0 0 0 / 5%);
-  position: relative;
-  min-width: 0;
-  word-wrap: break-word;
-  background-clip: border-box;
-  box-sizing: border-box;
-}
-.button:hover {
-  background-color: #0c3c7d;
+  max-width: 20rem;
+  padding: 0.5rem;
 }
 </style>
