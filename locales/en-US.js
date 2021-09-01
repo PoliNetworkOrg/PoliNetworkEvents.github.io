@@ -11,6 +11,12 @@ export default {
 	'Quando: 16/09/2021 ore 21:00': 'When: 09/16/2021 at 21:00',
 	'L\'evento annuale organizzato da PoliNetwork con Matricole ed Admin di tutte le facoltà': 'The annual event organized by PoliNetwork with Freshmen and Admin of all faculties',
 	'(current)': '(current)',
+	'Perché c\'è un limite al numero di partecipanti?': 'Why is there a limit on the number of participants?',
+	'A causa delle restrizioni anti Covid-19 il locale ha imposto questo limite': 'Because of restrictions against Covid-19, the venue set this limit',
+	'Perché possono partecipare soltanto Admin e Matricole?': 'Why are only Freshmen and Admins allowed to join?',
+	'A causa del limite al numero di persone abbiamo deciso di dare priorità alle matricole, che potranno anche confrontarsi con noi Admin': 'Because of the limit on the number of people, we decided to prioritize Freshmen, that will also be able to interact whith Admins',
+	'Quali sono e come verranno trattati i dati inviati tramite il form di iscrizione?': 'What are the data we collect and how will we handle them?',
+	'Il form raccoglie il Codice Persona e il tag Telegram o numero di telefono. Entro 24 ore dal termine dell\'evento tutti i dati saranno cancellati. Utilizzeremo queste informazioni per accertare l\'appartenenza al Politecnico di Milano come Matricole o Admin e per mandare comunicazioni inerenti l\'evento. I dati sono gestiti da Diego Aldarese, organizzatore dell\'evento': 'The form collects the Person Code and the Telegram tag or phone number. All data will be ereased whithin 24 hours after the end of the event. We\'ll use this information to determine wheather or not you are a Freshmen or an Admin at Politecnico di Milano and to send communications relevant to the event. The data handler will be Diego Aldarese, organizer of the event',
 	Contatti: 'Contacts',
 	'Questo sito non è affiliato al Politecnico di Milano': 'This site is not affiliated with the Politecnico di Milano',
 	'Tutti i nostri contatti e le nostre pagine social si trovano facilmente sul nostro': 'All our contacts and our social pages can be easily found on ours'
