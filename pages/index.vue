@@ -56,18 +56,11 @@
           <p class="text_medium" style="padding-top: 20px">
             📅 {{ $t("Quando: 16/09/2021 ore 21:00") }}
           </p>
-          <p class="text_medium">
+          <p class="text_medium" style="max-width: 35rem">
             👥
             {{
               $t(
-                "Il numero massimo di partecipanti è limitato"
-              )
-            }}
-          </p>
-          <p class="text_medium">
-            {{
-              $t(
-                "e sarà data priorità ad Admin e Matricole"
+                "Il numero massimo di partecipanti è limitato e sarà data priorità ad Admin e Matricole"
               )
             }}
           </p>
@@ -116,9 +109,9 @@ import questions2 from "~/assets/json/mma2021_questions.json";
 export default Vue.extend({
   data() {
     return {
-      questions: questions2
+      questions: questions2,
     };
-  }
+  },
 });
 </script>
 
@@ -129,13 +122,15 @@ export default Vue.extend({
 }
 
 .buttonLink {
-  padding: 10px;
+  padding: 8px;
 }
 
 .buttonsEvent {
-  padding-top: 0.2rem;
   overflow: auto;
-  padding: 1rem;
+  padding-top: 0rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
 }
 
 .text_big {
@@ -176,5 +171,9 @@ export default Vue.extend({
   overflow: auto;
   max-width: 20rem;
   padding: 0.5rem;
+}
+
+p{
+	margin-bottom: 0.5rem;
 }
 </style>
