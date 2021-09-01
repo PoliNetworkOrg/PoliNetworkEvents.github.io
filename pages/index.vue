@@ -57,10 +57,26 @@
             📅 {{ $t("Quando: 16/09/2021 ore 21:00") }}
           </p>
           <p class="text_medium">
-            👥 {{ $t("Numero massimo di partecipanti: 60") }}
+            👥
+            {{
+              $t(
+                "Il numero massimo di partecipanti è limitato"
+              )
+            }}
+          </p>
+          <p class="text_medium">
+            {{
+              $t(
+                "e sarà data priorità ad Admin e Matricole"
+              )
+            }}
           </p>
           <div class="buttonsEvent">
-            <a href="https://forms.office.com/r/S63ZertabZ" target="_blank" class="buttonLink">
+            <a
+              href="https://forms.office.com/r/S63ZertabZ"
+              target="_blank"
+              class="buttonLink"
+            >
               <LayoutButton
                 >{{ $t("Clicca qui per iscriverti") }} 📑</LayoutButton
               >
@@ -78,9 +94,7 @@
           </div>
         </div>
         <div>
-          <LayoutMap
-            where="Brasserie Bruxelles Pub Milano"
-          ></LayoutMap>
+          <LayoutMap where="Brasserie Bruxelles Pub Milano"></LayoutMap>
         </div>
       </div>
       <br />
@@ -102,9 +116,9 @@ import questions2 from "~/assets/json/mma2021_questions.json";
 export default Vue.extend({
   data() {
     return {
-      questions: questions2,
+      questions: questions2
     };
-  },
+  }
 });
 </script>
 
