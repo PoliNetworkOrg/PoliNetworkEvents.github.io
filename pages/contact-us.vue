@@ -11,12 +11,19 @@
               <div style="padding: 5px"></div>
             </div>
             <div style="text-align: left">
+              {{ $t("Scrivi all'organizzatore") }}
+              <a href="https://t.me/diegoaldarese/">{{
+                $t("cliccando qui")
+              }}</a>
+              <br />
               {{
                 $t(
                   "Tutti i nostri contatti e le nostre pagine social si trovano facilmente sul nostro"
                 )
               }}
-              <a href="https://polinetwork.github.io/">sito web principale</a>
+              <a href="https://polinetwork.github.io/">{{
+                $t("sito web principale")
+              }}</a>
             </div>
           </header>
         </div>

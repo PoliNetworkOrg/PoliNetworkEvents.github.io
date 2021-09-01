@@ -24,5 +24,8 @@ export default {
 	'Il form raccoglie il Codice Persona (equivalente all\'email con Nome e Cognome) e il tag Telegram o numero di telefono. Entro 24 ore dal termine dell\'evento tutti i dati saranno cancellati. Utilizzeremo queste informazioni per accertare l\'appartenenza al Politecnico di Milano come Matricole o Admin e per mandare comunicazioni inerenti l\'evento. I dati sono gestiti da Diego Aldarese, organizzatore dell\'evento': 'The form collects the Person Code (equivalent to the email with name and surname) and the Telegram tag or phone number. All data will be ereased whithin 24 hours after the end of the event. We\'ll use this information to determine wheather or not you are a Freshmen or an Admin at Politecnico di Milano and to send communications relevant to the event. The data handler will be Diego Aldarese, organizer of the event',
 	Contatti: 'Contacts',
 	'Questo sito non è affiliato al Politecnico di Milano': 'This site is not affiliated with the Politecnico di Milano',
-	'Tutti i nostri contatti e le nostre pagine social si trovano facilmente sul nostro': 'All our contacts and our social pages can be easily found on ours'
+	'Tutti i nostri contatti e le nostre pagine social si trovano facilmente sul nostro': 'All our contacts and our social pages can be easily found on our',
+	'Scrivi all\'organizzatore': 'Text the organizer by',
+	'cliccando qui': 'clicking here',
+	'sito web principale': 'main website',
 }
