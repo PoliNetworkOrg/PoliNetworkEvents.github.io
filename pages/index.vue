@@ -80,7 +80,6 @@
         <div>
           <LayoutMap
             where="Brasserie Bruxelles Pub Milano"
-            title="📌 Brasserie Bruxelles Pub Milano"
           ></LayoutMap>
         </div>
       </div>
