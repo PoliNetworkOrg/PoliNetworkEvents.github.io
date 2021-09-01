@@ -54,10 +54,10 @@
         </div>
         <div>
           <p class="text_medium" style="padding-top: 20px">
-            {{ $t("Quando: 16/09/2021 ore 21:00") }}
+            📅	 {{ $t("Quando: 16/09/2021 ore 21:00") }}
           </p>
           <p class="text_medium">
-            {{ $t("Numero massimo di partecipanti: 60") }}
+           👥 {{ $t("Numero massimo di partecipanti: 60") }}
           </p>
           <div class="buttonsEvent">
             <div
@@ -92,6 +92,8 @@
           ></iframe>
         </div>
       </div>
+	  <br />
+	  <hr />
       <p class="text_big" style="padding-top: 20px">FAQ</p>
       <div v-for="question in questions" :key="question.id">
         <LayoutQuestion
