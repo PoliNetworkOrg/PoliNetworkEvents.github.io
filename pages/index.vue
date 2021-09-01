@@ -33,7 +33,7 @@
                 <span>
                   {{
                     $t(
-                      "L'evento annuale organizzato da PoliNetwork con Matricole ed Admin di tutte le facoltà"
+                      "L'evento annuale organizzato da PoliNetwork con Matricole ed Admin di tutte le facoltà. Un'occasione per incontrarsi, chiacchierare, conoscersi davanti a una birra e stringere amicizie per affrontare insieme il nuovo percorso di studio, ma anche per farci qualsiasi domanda!"
                     )
                   }}
                 </span>

@@ -9,7 +9,7 @@ export default {
 	'e sarà data priorità ad Admin e Matricole': 'e sarà data priorità ad Admin e Matricole',
 	'Per ulteriori informazioni chiedi qui': 'Per ulteriori informazioni chiedi qui',
 	'Quando: 16/09/2021 ore 21:00': 'Quando: 16/09/2021 ore 21:00',
-	'L\'evento annuale organizzato da PoliNetwork con Matricole ed Admin di tutte le facoltà': 'L\'evento annuale organizzato da PoliNetwork con Matricole ed Admin di tutte le facoltà',
+	'L\'evento annuale organizzato da PoliNetwork con Matricole ed Admin di tutte le facoltà. Un\'occasione per incontrarsi, chiacchierare, conoscersi davanti a una birra e stringere amicizie per affrontare insieme il nuovo percorso di studio, ma anche per farci qualsiasi domanda!': 'L\'evento annuale organizzato da PoliNetwork con Matricole ed Admin di tutte le facoltà. Un\'occasione per incontrarsi, chiacchierare, conoscersi davanti a una birra e stringere amicizie per affrontare insieme il nuovo percorso di studio, ma anche per farci qualsiasi domanda!',
 	'(current)': '(current)',
 	'Perché c\'è un limite al numero di partecipanti?': 'Perché c\'è un limite al numero di partecipanti?',
 	'A causa delle restrizioni anti Covid-19 il locale ha imposto questo limite': 'A causa delle restrizioni anti Covid-19 il locale ha imposto questo limite',
@@ -23,5 +23,8 @@ export default {
 	'Il form raccoglie il Codice Persona (equivalente all\'email con Nome e Cognome) e il tag Telegram o numero di telefono. Entro 24 ore dal termine dell\'evento tutti i dati saranno cancellati. Utilizzeremo queste informazioni per accertare l\'appartenenza al Politecnico di Milano come Matricole o Admin e per mandare comunicazioni inerenti l\'evento. I dati sono gestiti da Diego Aldarese, organizzatore dell\'evento': 'Il form raccoglie il Codice Persona (equivalente all\'email con Nome e Cognome) e il tag Telegram o numero di telefono. Entro 24 ore dal termine dell\'evento tutti i dati saranno cancellati. Utilizzeremo queste informazioni per accertare l\'appartenenza al Politecnico di Milano come Matricole o Admin e per mandare comunicazioni inerenti l\'evento. I dati sono gestiti da Diego Aldarese, organizzatore dell\'evento',
 	Contatti: 'Contatti',
 	'Questo sito non è affiliato al Politecnico di Milano': 'Questo sito non è affiliato al Politecnico di Milano',
-	'Tutti i nostri contatti e le nostre pagine social si trovano facilmente sul nostro': 'Tutti i nostri contatti e le nostre pagine social si trovano facilmente sul nostro'
+	'Tutti i nostri contatti e le nostre pagine social si trovano facilmente sul nostro': 'Tutti i nostri contatti e le nostre pagine social si trovano facilmente sul nostro',
+	'Scrivi all\'organizzatore': 'Scrivi all\'organizzatore',
+	'cliccando qui': 'cliccando qui',
+	'sito web principale': 'sito web principale',
 }
