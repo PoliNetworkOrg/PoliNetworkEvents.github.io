@@ -1,6 +1,8 @@
 <template>
   <div>
-    <div class="titleMap">{{ "📌 " + where }}</div>
+    <a :href="   'https://maps.google.com/maps?q=' +
+        encodeURIComponent(where) +
+        '&t=&z=15&ie=UTF8&iwloc='"><div class="titleMap">{{ "📌 " + where }}</div></a>
     <iframe
       class="map"
       :src="
