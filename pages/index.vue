@@ -56,7 +56,7 @@
           <p class="text_medium" style="padding-top: 20px">
             📅 {{ $t("Quando: 16/09/2021 ore 21:00") }}
           </p>
-          <p class="text_medium" style="max-width: 35rem">
+          <p class="text_medium">
             👥
             {{
               $t(
@@ -142,14 +142,11 @@ export default Vue.extend({
 
 .text_medium {
   text-align: center;
-  padding-left: calc(4.5px + 1rem + 0.7vw);
-  padding-right: calc(4.5px + 1rem + 0.7vw);
-  font-size: calc(1.5px + 1.02rem + 0.4vw);
+  font-size: calc(1px + 1rem + 0.35vw);
+  max-width: 30rem;
 }
 .text_small {
   text-align: center;
-  padding-left: calc(5px + 0.5rem + 0.6vw);
-  padding-right: calc(5px + 0.5rem + 0.6vw);
   font-size: calc(1px + 1rem + 0.3vw);
 }
 .flex {
@@ -162,7 +159,6 @@ export default Vue.extend({
 @media (max-width: 1000px) {
   .flex {
     flex-direction: column;
-    min-width: 370px;
     overflow: auto;
   }
 }

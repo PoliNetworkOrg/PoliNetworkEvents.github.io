@@ -32,7 +32,7 @@ export default {
   width: 100%;
   height: auto;
   min-height: 20rem;
-  min-width: 20rem;
+  min-width: min(20rem, 100%);
   padding: 0rem;
 }
 
