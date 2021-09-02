@@ -127,7 +127,7 @@ export default Vue.extend({
 }
 
 .buttonsEvent {
-  overflow: auto;
+  overflow: hidden;
   padding-top: 0rem;
   padding-left: 1rem;
   padding-right: 1rem;
