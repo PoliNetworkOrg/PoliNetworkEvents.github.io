@@ -23,7 +23,7 @@ export default {
 	Contatti: 'Contacts',
 	'Questo sito non è affiliato al Politecnico di Milano': 'This site is not affiliated with the Politecnico di Milano',
 	'Tutti i nostri contatti e le nostre pagine social si trovano facilmente sul nostro': 'All our contacts and our social pages can be easily found on our',
-	'Scrivi all\'organizzatore (Diego)': 'Text the organizer (Diego)',
+	'Scrivi all\'organizzatore (Diego)': 'Text the organizer (Diego) by',
 	'cliccando qui': 'clicking here',
 	'sito web principale': 'main website',
 	"Il numero massimo di partecipanti è limitato e sarà data priorità ad Admin e Matricole" : "The maximum number of participants is limited and priority will be given to Admin and Freshmen"
