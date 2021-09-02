@@ -3,11 +3,10 @@
     <div :class="questionClass">
       <table>
         <tr>
-			<td style="min-width:1.5rem;">
-<span v-if="!collapsed">➤</span>
-<span v-else>▼</span>
-
-			</td>
+          <td style="min-width: 1.5rem">
+            <span v-if="!collapsed">➤</span>
+            <span v-else>▼</span>
+          </td>
           <td>
             <p :class="questionClassText">
               {{ question }}
