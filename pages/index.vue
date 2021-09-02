@@ -93,6 +93,7 @@
       <br />
       <hr />
       <p class="text_big" style="padding-top: 20px">FAQ</p>
+	<div style="padding:0.2rem;"></div>
       <div v-for="question in questions" :key="question.id">
         <LayoutQuestion
           :question="$t(question.question)"
