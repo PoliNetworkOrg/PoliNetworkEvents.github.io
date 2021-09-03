@@ -47,6 +47,13 @@
     <hr />
     <div class="dettaglievento">
       <p class="text_big">{{ $t("Dettagli Evento") }}</p>
+      <div class="text_big">
+        {{
+          $t(
+            "Iscrizioni chiuse. Grazie a tutti. Seguiranno prestissimo aggiornamenti."
+          )
+        }}
+      </div>
       <div style="padding: 0.2rem"></div>
       <div class="flex">
         <div>
@@ -58,32 +65,18 @@
           </p>
           <p class="text_medium">
             👥
-            {{
-              $t(
-                "Il numero massimo di partecipanti è limitato"
-              )
-            }}
+            {{ $t("Il numero massimo di partecipanti è limitato") }}
           </p>
           <p class="text_medium">
-            {{
-              $t(
-                "e sarà data priorità ad Admin e Matricole"
-              )
-            }}
+            {{ $t("e sarà data priorità ad Admin e Matricole") }}
           </p>
           <div class="buttonsEvent">
-            <a
-              href="https://forms.office.com/r/S63ZertabZ"
-              target="_blank"
-              class="buttonLink"
-            >
-              <LayoutButton
-                >{{ $t("Clicca qui per iscriverti") }} 📑</LayoutButton
-              >
-            </a>
             <a href="https://t.me/joinchat/AhIXEiN5s1BlMDVk" class="buttonLink">
               <LayoutButton>
-                {{ $t("Entra qui per aggiornamenti") }} 📣
+                {{
+                  $t("Entra qui per aggiornamenti (riservato agli iscritti)")
+                }}
+                📣
               </LayoutButton>
             </a>
             <a href="https://t.me/diegoaldarese" class="buttonLink">
