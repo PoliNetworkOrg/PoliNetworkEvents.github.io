@@ -11,7 +11,7 @@
               <div style="padding: 5px"></div>
             </div>
             <div style="text-align: left">
-              {{ $t("Scrivi all'organizzatore") }}
+              {{ $t("Scrivi all'organizzatore (Diego)") }}
               <a href="https://t.me/diegoaldarese/">{{
                 $t("cliccando qui")
               }}</a>

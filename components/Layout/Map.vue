@@ -1,6 +1,8 @@
 <template>
   <div>
-    <div class="titleMap">{{ "📌 " + where }}</div>
+    <a :href="   'https://maps.google.com/maps?q=' +
+        encodeURIComponent(where) +
+        '&t=&z=15&ie=UTF8&iwloc='"><div class="titleMap">{{ "📌 " + where }}</div></a>
     <iframe
       class="map"
       :src="
@@ -32,7 +34,7 @@ export default {
   width: 100%;
   height: auto;
   min-height: 20rem;
-  min-width: 20rem;
+  min-width: min(20rem, 100%);
   padding: 0rem;
 }
 

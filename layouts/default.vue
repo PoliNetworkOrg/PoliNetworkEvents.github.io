@@ -61,5 +61,7 @@ html {
   max-width: calc(40rem + 40vw);
   margin: auto;
   overflow: auto;
+  padding-left: calc(1.2rem + 0.8vw);
+  padding-right: calc(1.2rem + 0.8vw);
 }
 </style>

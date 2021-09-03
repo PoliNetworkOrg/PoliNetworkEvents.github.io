@@ -64,11 +64,13 @@
             📅 {{ $t("Quando: 16/09/2021 ore 21:00") }}
           </p>
           <p class="text_medium">
-            👥
-            {{ $t("Il numero massimo di partecipanti è limitato") }}
-          </p>
-          <p class="text_medium">
-            {{ $t("e sarà data priorità ad Admin e Matricole") }}
+
+            {{
+              $t(
+                "Il numero massimo di partecipanti è limitato e sarà data priorità ad Admin e Matricole"
+              )
+            }}
+
           </p>
           <div class="buttonsEvent">
             <a href="https://t.me/joinchat/AhIXEiN5s1BlMDVk" class="buttonLink">
@@ -93,11 +95,14 @@
       <br />
       <hr />
       <p class="text_big" style="padding-top: 20px">FAQ</p>
-      <div v-for="question in questions" :key="question.id">
-        <LayoutQuestion
-          :question="$t(question.question)"
-          :answer="$t(question.answer)"
-        />
+      <div style="padding: 0.2rem"></div>
+      <div style="max-width:70rem;margin: auto;">
+        <div v-for="question in questions" :key="question.id">
+          <LayoutQuestion
+            :question="$t(question.question)"
+            :answer="$t(question.answer)"
+          />
+        </div>
       </div>
     </div>
   </div>
@@ -109,9 +114,9 @@ import questions2 from "~/assets/json/mma2021_questions.json";
 export default Vue.extend({
   data() {
     return {
-      questions: questions2
+      questions: questions2,
     };
-  }
+  },
 });
 </script>
 
@@ -122,13 +127,15 @@ export default Vue.extend({
 }
 
 .buttonLink {
-  padding: 10px;
+  padding: 8px;
 }
 
 .buttonsEvent {
-  padding-top: 0.2rem;
-  overflow: auto;
-  padding: 1rem;
+  overflow: hidden;
+  padding-top: 0rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
 }
 
 .text_big {
@@ -139,14 +146,11 @@ export default Vue.extend({
 
 .text_medium {
   text-align: center;
-  padding-left: calc(4.5px + 1rem + 0.7vw);
-  padding-right: calc(4.5px + 1rem + 0.7vw);
-  font-size: calc(1.5px + 1.02rem + 0.4vw);
+  font-size: calc(1px + 1rem + 0.35vw);
+  max-width: 30rem;
 }
 .text_small {
   text-align: center;
-  padding-left: calc(5px + 0.5rem + 0.6vw);
-  padding-right: calc(5px + 0.5rem + 0.6vw);
   font-size: calc(1px + 1rem + 0.3vw);
 }
 .flex {
@@ -159,7 +163,6 @@ export default Vue.extend({
 @media (max-width: 1000px) {
   .flex {
     flex-direction: column;
-    min-width: 370px;
     overflow: auto;
   }
 }
@@ -169,5 +172,9 @@ export default Vue.extend({
   overflow: auto;
   max-width: 20rem;
   padding: 0.5rem;
+}
+
+p {
+  margin-bottom: 0.5rem;
 }
 </style>
