@@ -13,7 +13,7 @@
         "babel": "^6.23.0",
         "bootstrap": "^5.1.0",
         "bootstrap-vue": "^2.21.2",
-        "core-js": "^3.17.1",
+        "core-js": "^3.17.2",
         "npm": "^7.22.0",
         "nuxt": "^2.13.3",
         "nuxt-i18n-easy": "^1.5.1",
