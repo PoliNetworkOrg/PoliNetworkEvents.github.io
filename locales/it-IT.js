@@ -7,7 +7,7 @@ export default {
   'Meet My Admin': 'Meet My Admin',
   'Iscrizioni chiuse. Grazie a tutti. Seguiranno prestissimo aggiornamenti.': 'Iscrizioni chiuse. Grazie a tutti. Seguiranno prestissimo aggiornamenti.',
   'Per ulteriori informazioni chiedi qui': 'Per ulteriori informazioni chiedi qui',
-  'Quando: 16/09/2021 ore 21:00': 'Quando: 16/09/2021 ore 21:00',
+  'Quando: 16 o 17 settembre 2021 ore 21:00': 'Quando: 16 o 17 settembre 2021 ore 21:00',
   'L\'evento annuale organizzato da PoliNetwork con Matricole ed Admin di tutte le facoltà. Un\'occasione per incontrarsi, chiacchierare, conoscersi davanti a una birra e stringere amicizie per affrontare insieme il nuovo percorso di studio, ma anche per farci qualsiasi domanda!': 'L\'evento annuale organizzato da PoliNetwork con Matricole ed Admin di tutte le facoltà. Un\'occasione per incontrarsi, chiacchierare, conoscersi davanti a una birra e stringere amicizie per affrontare insieme il nuovo percorso di studio, ma anche per farci qualsiasi domanda!', // UNUSED
   '(current)': '(current)',
   'Perché c\'è un limite al numero di partecipanti?': 'Perché c\'è un limite al numero di partecipanti?', // UNUSED

@@ -61,7 +61,7 @@
         </div>
         <div>
           <p class="text_medium" style="padding-top: 20px">
-            📅 {{ $t("Quando: 16/09/2021 ore 21:00") }}
+            📅 {{ $t("Quando: 16 o 17 settembre 2021 ore 21:00") }}
           </p>
           <p class="text_medium">
 
