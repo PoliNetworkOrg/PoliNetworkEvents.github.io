@@ -6,7 +6,7 @@ export default {
   'Dettagli Evento': 'Event Details',
   'Entra qui per aggiornamenti': 'Enter here for updates', // UNUSED
   'Meet My Admin': 'Meet My Admin',
-  'Iscrizioni chiuse. Grazie a tutti. Seguiranno prestissimo aggiornamenti.': 'Registrations closed. Thank you all. Updates will follow very soon.',
+  'Grazie a tutti per essere venuti! Ci vediamo la prossima volta!': 'Thank you all for coming! We\'ll catch up next time!',
   'Per ulteriori informazioni chiedi qui': 'For more information ask here',
   'Quando: 16 o 17 settembre 2021 ore 21:00': 'When: September 16th or 17th 2021 at 21:00',
   'L\'evento annuale organizzato da PoliNetwork con Matricole ed Admin di tutte le facoltà. Un\'occasione per incontrarsi, chiacchierare, conoscersi davanti a una birra e stringere amicizie per affrontare insieme il nuovo percorso di studio, ma anche per farci qualsiasi domanda!': 'The annual event organized by PoliNetwork with Freshmen and Admin of all faculties. An opportunity to meet, chat, get to know each other over a beer and make friends to face the new study path together, but also to ask any questions!', // UNUSED

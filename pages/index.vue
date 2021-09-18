@@ -50,10 +50,11 @@
       <div class="text_big">
         {{
           $t(
-            "Iscrizioni chiuse. Grazie a tutti. Seguiranno prestissimo aggiornamenti."
+            "Grazie a tutti per essere venuti! Ci vediamo la prossima volta!"
           )
         }}
       </div>
+      <!--
       <div style="padding: 0.2rem"></div>
       <div class="flex">
         <div>
@@ -104,6 +105,7 @@
           />
         </div>
       </div>
+      -->
     </div>
   </div>
 </template>
