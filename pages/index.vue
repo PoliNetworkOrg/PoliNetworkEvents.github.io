@@ -16,7 +16,7 @@
       >
         <div style="text-align: center">
           <h2 class="text_big">
-            <span>{{ $t("Meet My Admin") }} </span>
+            <span>{{ $t("Eventi") }} </span>
           </h2>
           <h5 style="font-size: calc(0.5px + 1.05rem + 0.5vw)">
             <a :href="'https://polinetwork.github.io/' + $i18n.locale">
@@ -31,81 +31,31 @@
             <div class="container6">
               <p class="text_small">
                 <span>
-                  {{
-                    $t(
-                      "L'evento annuale organizzato da PoliNetwork con Matricole ed Admin di tutte le facoltà. Un'occasione per incontrarsi, chiacchierare, conoscersi davanti a una birra e stringere amicizie per affrontare insieme il nuovo percorso di studio, ma anche per farci qualsiasi domanda!"
-                    )
-                  }}
+                  {{ $t("Gli eventi del network!") }}
                 </span>
               </p>
             </div>
           </div>
         </div>
       </header>
-    </div>
-    <!-- /.container -->
-    <hr />
-    <div class="dettaglievento">
-      <p class="text_big">{{ $t("Dettagli Evento") }}</p>
-      <div class="text_big">
-        {{
-          $t(
-            "Grazie a tutti per essere venuti! Ci vediamo la prossima volta!"
-          )
-        }}
-      </div>
-      <!--
-      <div style="padding: 0.2rem"></div>
-      <div class="flex">
-        <div>
-          <img class="media" src="/img/mma2k21logo.png" />
-        </div>
-        <div>
-          <p class="text_medium" style="padding-top: 20px">
-            📅 {{ $t("Quando: 16 o 17 settembre 2021 ore 21:00") }}
-          </p>
-          <p class="text_medium">
-
-            {{
-              $t(
-                "Il numero massimo di partecipanti è limitato e sarà data priorità ad Admin e Matricole"
-              )
-            }}
-
-          </p>
-          <div class="buttonsEvent">
-            <a href="https://t.me/joinchat/AhIXEiN5s1BlMDVk" class="buttonLink">
-              <LayoutButton>
-                {{
-                  $t("Entra qui per aggiornamenti (riservato agli iscritti)")
-                }}
-                📣
-              </LayoutButton>
-            </a>
-            <a href="https://t.me/diegoaldarese" class="buttonLink">
-              <LayoutButton>
-                {{ $t("Per ulteriori informazioni chiedi qui") }} ✍
-              </LayoutButton>
-            </a>
-          </div>
-        </div>
-        <div>
-          <LayoutMap where="Brasserie Bruxelles Pub Milano"></LayoutMap>
-        </div>
-      </div>
-      <br />
       <hr />
-      <p class="text_big" style="padding-top: 20px">FAQ</p>
-      <div style="padding: 0.2rem"></div>
-      <div style="max-width:70rem;margin: auto;">
-        <div v-for="question in questions" :key="question.id">
-          <LayoutQuestion
-            :question="$t(question.question)"
-            :answer="$t(question.answer)"
-          />
-        </div>
+      <div class="event-list">
+        <a class="single-event" :hreF="localePath('/mma2021/')">
+          <div>
+            <div class="expired-event">Expired</div>
+            <img
+              class="event-logo"
+              src="/img/events/2021/mma/mma2k21logo.png"
+            />
+            <div style="padding: 0.5rem"></div>
+            <span class="event-title"> MMA 2021 </span>
+            <div style="padding: 0.5rem"></div>
+            <span class="event-desc"
+              >L'evento annuale di incontro fra matricole e admin</span
+            >
+          </div>
+        </a>
       </div>
-      -->
     </div>
   </div>
 </template>
@@ -178,5 +128,53 @@ export default Vue.extend({
 
 p {
   margin-bottom: 0.5rem;
+}
+
+.single-event {
+  padding: 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.432);
+  border-radius: 1rem;
+  max-width: calc(12rem + 4vw);
+  /*max-height: calc(12rem + 4vw); */
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+a.single-event:hover {
+  text-decoration: none !important;
+}
+
+.event-list {
+  margin: auto;
+  display: flex;
+}
+
+.event-title {
+  font-size: calc(4px + 0.6rem + 0.6vw);
+}
+
+.event-logo {
+  width: 100%;
+  max-width: calc(4rem + 4vw);
+  margin: auto;
+  text-align: center;
+}
+
+.event-desc {
+  font-size: calc(3px + 0.4rem + 0.4vw);
+  color: black;
+  line-height: normal;
+}
+
+.expired-event {
+  transform: rotate(-45deg);
+  position: absolute;
+  color: #6c0000;
+  border: 1px solid black;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  background-color: #ffe300;
+  font-weight: bold;
 }
 </style>
