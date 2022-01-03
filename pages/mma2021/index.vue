@@ -44,68 +44,87 @@
       </header>
     </div>
     <!-- /.container -->
-    <hr />
-    <div class="dettaglievento">
-      <p class="text_big">{{ $t("Dettagli Evento") }}</p>
-      <div class="text_big">
-        {{
-          $t(
-            "Grazie a tutti per essere venuti! Ci vediamo la prossima volta!"
-          )
-        }}
-      </div>
-      <!--
-      <div style="padding: 0.2rem"></div>
-      <div class="flex">
-        <div>
-          <img class="media" src="/img/mma2k21logo.png" />
-        </div>
-        <div>
-          <p class="text_medium" style="padding-top: 20px">
-            📅 {{ $t("Quando: 16 o 17 settembre 2021 ore 21:00") }}
-          </p>
-          <p class="text_medium">
-
+    <div v-if="expired == true">
+      <hr />
+      <div class="dettaglievento">
+        <div class="text_big">
+          <p>
             {{
               $t(
-                "Il numero massimo di partecipanti è limitato e sarà data priorità ad Admin e Matricole"
+                "Grazie a tutti per essere venuti!!"
               )
             }}
-
           </p>
-          <div class="buttonsEvent">
-            <a href="https://t.me/joinchat/AhIXEiN5s1BlMDVk" class="buttonLink">
-              <LayoutButton>
+          <p>
+            {{
+              $t(
+                "Ci vediamo la prossima volta!"
+              )
+            }}
+          </p>
+        </div>
+      </div>
+    </div>
+    <div v-if="expired == false">
+      <hr />
+      <div class="dettaglievento">
+        <p class="text_big">{{ $t("Dettagli Evento") }}</p>
+        <div>
+          <div style="padding: 0.2rem"></div>
+          <div class="flex">
+            <div>
+              <img class="media" src="/img/mma2k21logo.png" />
+            </div>
+            <div>
+              <p class="text_medium" style="padding-top: 20px">
+                📅 {{ $t("Quando: 16 o 17 settembre 2021 ore 21:00") }}
+              </p>
+              <p class="text_medium">
                 {{
-                  $t("Entra qui per aggiornamenti (riservato agli iscritti)")
+                  $t(
+                    "Il numero massimo di partecipanti è limitato e sarà data priorità ad Admin e Matricole"
+                  )
                 }}
-                📣
-              </LayoutButton>
-            </a>
-            <a href="https://t.me/diegoaldarese" class="buttonLink">
-              <LayoutButton>
-                {{ $t("Per ulteriori informazioni chiedi qui") }} ✍
-              </LayoutButton>
-            </a>
+              </p>
+              <div class="buttonsEvent">
+                <a
+                  href="https://t.me/joinchat/AhIXEiN5s1BlMDVk"
+                  class="buttonLink"
+                >
+                  <LayoutButton>
+                    {{
+                      $t(
+                        "Entra qui per aggiornamenti (riservato agli iscritti)"
+                      )
+                    }}
+                    📣
+                  </LayoutButton>
+                </a>
+                <a href="https://t.me/diegoaldarese" class="buttonLink">
+                  <LayoutButton>
+                    {{ $t("Per ulteriori informazioni chiedi qui") }} ✍
+                  </LayoutButton>
+                </a>
+              </div>
+            </div>
+            <div>
+              <LayoutMap where="Brasserie Bruxelles Pub Milano"></LayoutMap>
+            </div>
+          </div>
+          <br />
+          <hr />
+          <p class="text_big" style="padding-top: 20px">FAQ</p>
+          <div style="padding: 0.2rem"></div>
+          <div style="max-width: 70rem; margin: auto">
+            <div v-for="question in questions" :key="question.id">
+              <LayoutQuestion
+                :question="$t(question.question)"
+                :answer="$t(question.answer)"
+              />
+            </div>
           </div>
         </div>
-        <div>
-          <LayoutMap where="Brasserie Bruxelles Pub Milano"></LayoutMap>
-        </div>
       </div>
-      <br />
-      <hr />
-      <p class="text_big" style="padding-top: 20px">FAQ</p>
-      <div style="padding: 0.2rem"></div>
-      <div style="max-width:70rem;margin: auto;">
-        <div v-for="question in questions" :key="question.id">
-          <LayoutQuestion
-            :question="$t(question.question)"
-            :answer="$t(question.answer)"
-          />
-        </div>
-      </div>
-      -->
     </div>
   </div>
 </template>
@@ -117,6 +136,7 @@ export default Vue.extend({
   data() {
     return {
       questions: questions2,
+      expired: true,
     };
   },
 });
