@@ -44,7 +44,10 @@ jobs:
         
       - name: 👨🏻‍💻 Install dependencies (4)
         run: npm install vue@2.7.1
-
+        
+      - name: 👨🏻‍💻 Install dependencies (5)
+        run: npm install vue-template-compiler@2.7.1
+        
       - name: 👨‍🏭️ Generate
         run: npm run generate
 
