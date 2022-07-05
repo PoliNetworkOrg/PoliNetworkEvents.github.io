@@ -55,6 +55,20 @@
             >
           </div>
         </a>
+		<a class="single-event" :hreF="localePath('/assoc2022/')">
+          <div>
+            <img
+              class="event-logo"
+              src="/img/events/2022/assoc/icon.jpg"
+            />
+            <div style="padding: 0.5rem"></div>
+            <span class="event-title"> ASSOC 2022 </span>
+            <div style="padding: 0.5rem"></div>
+            <span class="event-desc"
+              >Il network diventa associazione e vi invita a festeggiare!</span
+            >
+          </div>
+        </a>
       </div>
     </div>
   </div>

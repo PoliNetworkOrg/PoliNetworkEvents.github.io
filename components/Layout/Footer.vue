@@ -25,9 +25,9 @@
             padding-top: 10px;
           "
         >
-          <span>{{
+          <span><a style="color:inherit;" href="https://polinetwork.org/it/learnmore/official/">{{
             $t("Questo sito non è affiliato al Politecnico di Milano")
-          }}</span>
+          }}</a></span>
         </p>
       </div>
       <!-- /.container -->
