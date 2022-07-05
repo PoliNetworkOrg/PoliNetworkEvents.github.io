@@ -15,7 +15,7 @@
 		"core-js": "^3.23.3",
 		"nuxt": "^2.2.0",
 		"nuxt-i18n": "^6.28.1",
-		"nuxt-i18n-easy": "^1.5.1",
+		"nuxt-i18n-easy": "^1.0.3",
 		"regenerator-runtime": "^0.13.9",
 		"vue": "^2.7.1",
 		"vue-server-renderer": "^2.7.1",
