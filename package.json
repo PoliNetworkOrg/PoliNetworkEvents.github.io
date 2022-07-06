@@ -18,7 +18,7 @@
 		"nuxt-i18n-easy": "^1.5.1",
 		"regenerator-runtime": "^0.13.9",
 		"vue": "^2.7.1",
-		"vue-server-renderer": "^2.7.1",
+		"vue-server-renderer": "^2.7.2",
 		"vue-template-compiler": "^2.7.1"
 	},
 	"devDependencies": {
