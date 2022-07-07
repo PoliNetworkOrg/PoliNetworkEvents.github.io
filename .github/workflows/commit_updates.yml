@@ -43,13 +43,13 @@ jobs:
         run: npm ci
         
       - name: 👨🏻‍💻 Install dependencies (4)
-        run: npm install vue-server-renderer@2.7.1
+        run: npm install vue-server-renderer@2.7.3
         
       - name: 👨🏻‍💻 Install dependencies (5)
-        run: npm install vue@2.7.1
+        run: (npm install vue@2.7.3) || true
         
       - name: 👨🏻‍💻 Install dependencies (6)
-        run: npm install vue-template-compiler@2.7.1
+        run: npm install vue-template-compiler@2.7.3
 
       - name: commit
         run: | 
