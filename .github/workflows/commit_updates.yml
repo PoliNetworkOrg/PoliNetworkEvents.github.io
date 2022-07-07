@@ -56,5 +56,5 @@ jobs:
           git config --global user.email "github_bot@github.com"
           git config --global user.name "Github action"
           git add .
-          git commit -m 'push files'
-          git push
+          (git commit -m 'push files') || true
+          (git push) || true
