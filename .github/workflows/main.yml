@@ -40,13 +40,22 @@ jobs:
         run: npm install
         
       - name: 👨🏻‍💻 Install dependencies (3)
-        run: npm install vue-server-renderer@2.7.1
+        run: npm install vue-server-renderer@2.7.4
         
       - name: 👨🏻‍💻 Install dependencies (4)
-        run: npm install vue@2.7.1
+        run: npm install vue@2.7.4
         
       - name: 👨🏻‍💻 Install dependencies (5)
-        run: npm install vue-template-compiler@2.7.1
+        run: npm install vue-template-compiler@2.7.4
+        
+      - name: commit
+        run: | 
+          git config --global user.email "github_bot@github.com"
+          git config --global user.name "Github action"
+          git add .
+          (git commit -m 'push files') || true
+          git pull
+          (git push) || true
         
       - name: 👨‍🏭️ Generate
         run: npm run generate
