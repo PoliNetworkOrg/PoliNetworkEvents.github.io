@@ -39,14 +39,6 @@ jobs:
       - name: 👨🏻‍💻 Install dependencies (2)
         run: npm install
         
-      - name: 👨🏻‍💻 Install dependencies (3)
-        run: npm install vue-server-renderer@2.7.5
-        
-      - name: 👨🏻‍💻 Install dependencies (4)
-        run: npm install vue@2.7.5
-        
-      - name: 👨🏻‍💻 Install dependencies (5)
-        run: npm install vue-template-compiler@2.7.5
         
       - name: commit
         run: | 
