@@ -55,7 +55,7 @@
             >
           </div>
         </a>
-		<a class="single-event" :hreF="localePath('/assoc2022/')">
+		<a v-show="false" class="single-event" :hreF="localePath('/assoc2022/')">
           <div>
             <img
               class="event-logo"
