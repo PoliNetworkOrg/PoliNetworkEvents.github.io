@@ -19,7 +19,7 @@
             <span>{{ $t("Meet My Admin") }} </span>
           </h2>
           <h5 style="font-size: calc(0.5px + 1.05rem + 0.5vw)">
-            <a :href="'https://polinetwork.github.io/' + $i18n.locale">
+            <a :href="'https://polinetwork.org/' + $i18n.locale">
               by PoliNetwork
             </a>
           </h5>
