@@ -13,7 +13,7 @@
           style="font-size: calc(3px + 0.55rem + 0.35vw)"
         >
           Copyright &copy;
-          <a :href="'https://polinetwork.github.io/' + $i18n.locale"
+          <a :href="'https://polinetwork.org/' + $i18n.locale"
             >PoliNetwork</a
           >
         </p>
