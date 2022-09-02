@@ -40,9 +40,27 @@
       </header>
       <hr />
       <div class="event-list">
+        <a class="single-event" :hreF="localePath('/mma2022/')">
+          <div>
+            <img
+              class="event-logo"
+              src="/img/events/2021/mma/mma2k21logo.png"
+            />
+            <div style="padding: 0.5rem"></div>
+            <span class="event-title"> MMA 2022 </span>
+            <div style="padding: 0.5rem"></div>
+            <span class="event-desc">
+              {{
+              $t(
+                "L'evento annuale di incontro fra matricole e admin"
+              )
+              }}
+            </span>
+          </div>
+        </a>
         <a class="single-event" :hreF="localePath('/mma2021/')">
           <div>
-            <div class="expired-event">Expired</div>
+            <div class="expired-event">{{ $t( "Terminato" ) }}</div>
             <img
               class="event-logo"
               src="/img/events/2021/mma/mma2k21logo.png"
@@ -50,12 +68,16 @@
             <div style="padding: 0.5rem"></div>
             <span class="event-title"> MMA 2021 </span>
             <div style="padding: 0.5rem"></div>
-            <span class="event-desc"
-              >L'evento annuale di incontro fra matricole e admin</span
-            >
+            <span class="event-desc">
+              {{
+              $t(
+                "L'evento annuale di incontro fra matricole e admin"
+              )
+              }}
+            </span>
           </div>
         </a>
-		<a v-show="false" class="single-event" :hreF="localePath('/assoc2022/')">
+		    <a v-show="false" class="single-event" :hreF="localePath('/assoc2022/')">
           <div>
             <img
               class="event-logo"
@@ -64,9 +86,13 @@
             <div style="padding: 0.5rem"></div>
             <span class="event-title"> ASSOC 2022 </span>
             <div style="padding: 0.5rem"></div>
-            <span class="event-desc"
-              >Il network diventa associazione e vi invita a festeggiare!</span
-            >
+            <span class="event-desc">
+              {{
+              $t(
+                "Il network diventa associazione e vi invita a festeggiare!"
+              )
+              }}
+            </span>
           </div>
         </a>
       </div>

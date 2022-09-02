@@ -77,9 +77,9 @@
             </div>
             <div>
               <p class="text_medium" style="padding-top: 20px">
-                📅 {{ $t("Quando: 16 o 17 settembre 2021 ore 21:00") }}
+                📅 {{ $t("Quando: 15 settembre 2022 ore 21:00") }}
               </p>
-              <p class="text_medium">
+              <p v-show="false" class="text_medium">
                 {{
                   $t(
                     "Il numero massimo di partecipanti è limitato e sarà data priorità ad Admin e Matricole"
@@ -94,7 +94,7 @@
                   <LayoutButton>
                     {{
                       $t(
-                        "Entra qui per aggiornamenti (riservato agli iscritti)"
+                        "Entra qui per aggiornamenti"
                       )
                     }}
                     📣
@@ -131,12 +131,12 @@
 
 <script lang="ts">
 import Vue from "vue";
-import questions2 from "~/assets/json/mma2021_questions.json";
+import questions2 from "~/assets/json/mma2022_questions.json";
 export default Vue.extend({
   data() {
     return {
       questions: questions2,
-      expired: true,
+      expired: false,
     };
   },
 });
