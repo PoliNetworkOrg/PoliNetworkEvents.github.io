@@ -40,6 +40,25 @@
       </header>
       <hr />
       <div class="event-list">
+		<a class="single-event" v-for="event in events" :key="event.name" :hreF="localePath(event.name)" v-show="event.show">
+			<div>
+			<div v-if="event.expired" class="expired-event">{{ $t( "Terminato" ) }}</div>
+            <img
+              class="event-logo"
+              :src=event.imgPath
+            />
+            <div style="padding: 0.5rem"></div>
+            <span class="event-title"> {{event.title}} </span>
+            <div style="padding: 0.5rem"></div>
+            <span class="event-desc">
+              {{
+              $t(
+                event.desc
+              )
+              }}
+            </span>
+          </div>
+		</a>
         <a class="single-event" :hreF="localePath('/mma2022/')">
           <div>
             <img
@@ -77,7 +96,7 @@
             </span>
           </div>
         </a>
-		    <a v-show="false" class="single-event" :hreF="localePath('/assoc2022/')">
+		<a v-show="false" class="single-event" :hreF="localePath('/assoc2022/')">
           <div>
             <img
               class="event-logo"
@@ -107,6 +126,16 @@ export default Vue.extend({
   data() {
     return {
       questions: questions2,
+	  events: [
+		{
+			name: "mma2022",
+			title: "MMA 2022",
+			desc: "Descrizione",
+			imgPath: "/img/events/2021/mma/mma2k21logo.png",
+			expired: false,
+			show: true
+		}
+	  ]
     };
   },
 });
