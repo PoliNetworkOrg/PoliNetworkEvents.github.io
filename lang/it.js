@@ -34,5 +34,7 @@ export default {
   'Il network diventa associazione e vi invita a festeggiare!': 'Il network diventa associazione e vi invita a festeggiare!',
   'Grazie a tutti per essere venuti!': 'Grazie a tutti per essere venuti!',
   'Ci vediamo la prossima volta!': 'Ci vediamo la prossima volta!',
-  'Terminato': 'Terminato'
+  'Terminato': 'Terminato',
+  'Errore': 'Errore',
+  'Torna alla Home': 'Torna alla Home'
 }

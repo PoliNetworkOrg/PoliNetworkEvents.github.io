@@ -7,12 +7,10 @@
       style="padding-top: calc(6rem + 2vh + 10px); text-align: center"
     >
       <div>
-        <h1>Error {{ error.statusCode }}</h1>
-        <div style="padding: 0.4rem"></div>
-        <h2>{{ error.message }}</h2>
+        <h1>{{ $t("Errore") }} {{ error.statusCode }}</h1>
       </div>
       <div style="padding: 2rem"></div>
-      <a href="/"><LayoutButton>&nbsp;Go to homepage&nbsp;</LayoutButton></a>
+      <a href="/"><LayoutButton>&nbsp;{{ $t("Torna alla Home") }}&nbsp;</LayoutButton></a>
     </div>
   </div>
 </template>
