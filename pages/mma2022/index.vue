@@ -113,7 +113,7 @@
           </div>
           <br />
           <hr />
-          <p class="text_big" style="padding-top: 20px">FAQ</p>
+          <p v-if="questions.length" class="text_big" style="padding-top: 20px">FAQ</p>
           <div style="padding: 0.2rem"></div>
           <div style="max-width: 70rem; margin: auto">
             <div v-for="question in questions" :key="question.id">

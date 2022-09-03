@@ -13,7 +13,7 @@
           padding-bottom: 0px;
           padding-top: 0px;
         "
-      >
+        >
         <div style="text-align: center">
           <h2 class="text_big">
             <span>{{ $t("Eventi") }} </span>
@@ -24,9 +24,7 @@
             </a>
           </h5>
           <div></div>
-
           <br />
-
           <div class="container8">
             <div class="container6">
               <p class="text_small">
@@ -39,81 +37,26 @@
         </div>
       </header>
       <hr />
-      <div class="event-list">
-		<a class="single-event" v-for="event in events" :key="event.name" :hreF="localePath(event.name)" v-show="event.show">
-			<div>
-			<div v-if="event.expired" class="expired-event">{{ $t( "Terminato" ) }}</div>
-            <img
-              class="event-logo"
-              :src=event.imgPath
-            />
-            <div style="padding: 0.5rem"></div>
-            <span class="event-title"> {{event.title}} </span>
-            <div style="padding: 0.5rem"></div>
-            <span class="event-desc">
-              {{
-              $t(
-                event.desc
-              )
-              }}
-            </span>
-          </div>
-		</a>
-        <a class="single-event" :hreF="localePath('/mma2022/')">
-          <div>
-            <img
-              class="event-logo"
-              src="/img/events/2021/mma/mma2k21logo.png"
-            />
-            <div style="padding: 0.5rem"></div>
-            <span class="event-title"> MMA 2022 </span>
-            <div style="padding: 0.5rem"></div>
-            <span class="event-desc">
-              {{
-              $t(
-                "L'evento annuale di incontro fra matricole e admin"
-              )
-              }}
-            </span>
-          </div>
-        </a>
-        <a class="single-event" :hreF="localePath('/mma2021/')">
-          <div>
-            <div class="expired-event">{{ $t( "Terminato" ) }}</div>
-            <img
-              class="event-logo"
-              src="/img/events/2021/mma/mma2k21logo.png"
-            />
-            <div style="padding: 0.5rem"></div>
-            <span class="event-title"> MMA 2021 </span>
-            <div style="padding: 0.5rem"></div>
-            <span class="event-desc">
-              {{
-              $t(
-                "L'evento annuale di incontro fra matricole e admin"
-              )
-              }}
-            </span>
-          </div>
-        </a>
-		<a v-show="false" class="single-event" :hreF="localePath('/assoc2022/')">
-          <div>
-            <img
-              class="event-logo"
-              src="/img/events/2022/assoc/icon.jpg"
-            />
-            <div style="padding: 0.5rem"></div>
-            <span class="event-title"> ASSOC 2022 </span>
-            <div style="padding: 0.5rem"></div>
-            <span class="event-desc">
-              {{
-              $t(
-                "Il network diventa associazione e vi invita a festeggiare!"
-              )
-              }}
-            </span>
-          </div>
-        </a>
+        <div class="event-list">
+          <a class="single-event" v-for="event in events" :key="event.name" :hreF="localePath(event.name)" v-show="event.show">
+            <div>
+              <div v-if="event.expired" class="expired-event">{{ $t( "Terminato" ) }}</div>
+              <img
+                class="event-logo"
+                :src=event.imgPath
+              />
+              <div style="padding: 0.5rem"></div>
+              <span class="event-title"> {{event.title}} </span>
+              <div style="padding: 0.5rem"></div>
+              <span class="event-desc">
+                {{
+                $t(
+                  event.desc
+                )
+                }}
+              </span>
+            </div>
+          </a>
       </div>
     </div>
   </div>
@@ -127,12 +70,28 @@ export default Vue.extend({
     return {
       questions: questions2,
 	  events: [
-		{
-			name: "mma2022",
+    {
+			name: "assoc2022",
 			title: "MMA 2022",
 			desc: "Descrizione",
+			imgPath: "/img/events/2022/assoc/icon.jpg",
+			expired: false,
+			show: false
+		},
+    {
+			name: "mma2022",
+			title: "MMA 2022",
+			desc: "L'evento annuale di incontro fra matricole e admin",
 			imgPath: "/img/events/2021/mma/mma2k21logo.png",
 			expired: false,
+			show: true
+		},
+    {
+			name: "mma2021",
+			title: "MMA 2021",
+			desc: "L'evento annuale di incontro fra matricole e admin",
+			imgPath: "/img/events/2021/mma/mma2k21logo.png",
+			expired: true,
 			show: true
 		}
 	  ]	
