@@ -29,6 +29,7 @@ export default {
   'sito web principale': 'main website',
   'Il numero massimo di partecipanti è limitato e sarà data priorità ad Admin e Matricole': 'The maximum number of participants is limited and priority will be given to Admin and Freshmen', // UNUSED
   'Entra qui per aggiornamenti (riservato agli iscritti)': 'Enter here for updates (reserved for members)',
+  'Entra qui per iscriverti (Solo se pensi di poter venire)': 'Enter here to sign up (Only if you think you can come)',
   'Gli eventi del network!': 'The network\'s events',
   'L\'evento annuale di incontro fra matricole e admin': 'The annual event where freshmen and admins meet up',
   'Il network diventa associazione e vi invita a festeggiare!': 'The network becomes an association and invites you all to party',

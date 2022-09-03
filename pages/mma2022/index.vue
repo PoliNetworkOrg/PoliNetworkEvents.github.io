@@ -94,7 +94,7 @@
                   <LayoutButton>
                     {{
                       $t(
-                        "Entra qui per aggiornamenti"
+                        "Entra qui per iscriverti (Solo se pensi di poter venire)"
                       )
                     }}
                     📣

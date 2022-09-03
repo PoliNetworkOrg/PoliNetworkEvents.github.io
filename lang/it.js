@@ -29,6 +29,7 @@ export default {
   'sito web principale': 'sito web principale',
   'Il numero massimo di partecipanti è limitato e sarà data priorità ad Admin e Matricole': 'Il numero massimo di partecipanti è limitato e sarà data priorità ad Admin e Matricole', // UNUSED
   'Entra qui per aggiornamenti (riservato agli iscritti)': 'Entra qui per aggiornamenti (riservato agli iscritti)',
+  'Entra qui per iscriverti (Solo se pensi di poter venire)': 'Entra qui per iscriverti (Solo se pensi di poter venire)',
   'Gli eventi del network!': 'Gli eventi del network!',
   'L\'evento annuale di incontro fra matricole e admin': 'L\'evento annuale di incontro fra matricole e admin',
   'Il network diventa associazione e vi invita a festeggiare!': 'Il network diventa associazione e vi invita a festeggiare!',
