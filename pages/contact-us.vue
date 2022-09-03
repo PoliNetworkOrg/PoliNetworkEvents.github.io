@@ -21,7 +21,7 @@
                   "Tutti i nostri contatti e le nostre pagine social si trovano facilmente sul nostro"
                 )
               }}
-              <a href="https://polinetwork.github.io/">{{
+              <a href="https://polinetwork.org/">{{
                 $t("sito web principale")
               }}</a>.
             </div>
