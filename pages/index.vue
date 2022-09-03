@@ -135,7 +135,7 @@ export default Vue.extend({
 			expired: false,
 			show: true
 		}
-	  ]
+	  ]	
     };
   },
 });
