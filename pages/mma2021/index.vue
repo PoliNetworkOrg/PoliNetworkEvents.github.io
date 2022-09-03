@@ -73,7 +73,7 @@
           <div style="padding: 0.2rem"></div>
           <div class="flex">
             <div>
-              <img class="media" src="/img/mma2k21logo.png" />
+              <img class="media" src="/img/events/2021/mma/mma2k21logo.png" />
             </div>
             <div>
               <p class="text_medium" style="padding-top: 20px">
