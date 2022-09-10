@@ -13,7 +13,7 @@
           padding-bottom: 0px;
           padding-top: 0px;
         "
-        >
+      >
         <div style="text-align: center">
           <h2 class="text_big">
             <span>{{ $t("Eventi") }} </span>
@@ -36,27 +36,34 @@
           </div>
         </div>
       </header>
-      <hr />
+
+      <div v-for="cat in categories" :key="cat.desc">
+        <div style="padding-top: -5px"></div>
+        <hr />
+        <div style="text-align: center">{{ cat.desc }}</div>
+        <div style="padding-top: 10px"></div>
         <div class="event-list">
-          <a class="single-event" v-for="event in events" :key="event.name" :hreF="localePath(event.name)" v-show="event.show">
+          <a
+            class="single-event"
+            v-for="event in events"
+            :key="event.name"
+            :hreF="localePath(event.name)"
+            v-show="event.show && event.expired == cat.expired"
+          >
             <div>
-              <div v-if="event.expired" class="expired-event">{{ $t( "Terminato" ) }}</div>
-              <img
-                class="event-logo"
-                :src=event.imgPath
-              />
+              <div v-if="event.expired" class="expired-event">
+                {{ $t("Terminato") }}
+              </div>
+              <img class="event-logo" :src="event.imgPath" />
               <div style="padding: 0.5rem"></div>
-              <span class="event-title"> {{event.title}} </span>
+              <span class="event-title"> {{ event.title }} </span>
               <div style="padding: 0.5rem"></div>
               <span class="event-desc">
-                {{
-                $t(
-                  event.desc
-                )
-                }}
+                {{ $t(event.desc) }}
               </span>
             </div>
           </a>
+        </div>
       </div>
     </div>
   </div>
@@ -69,32 +76,42 @@ export default Vue.extend({
   data() {
     return {
       questions: questions2,
-	  events: [
-    {
-			name: "assoc2022",
-			title: "MMA 2022",
-			desc: "Descrizione",
-			imgPath: "/img/events/2022/assoc/icon.jpg",
-			expired: false,
-			show: false
-		},
-    {
-			name: "mma2022",
-			title: "MMA 2022",
-			desc: "L'evento annuale di incontro fra matricole e admin",
-			imgPath: "/img/events/2021/mma/mma2k21logo.png",
-			expired: false,
-			show: true
-		},
-    {
-			name: "mma2021",
-			title: "MMA 2021",
-			desc: "L'evento annuale di incontro fra matricole e admin",
-			imgPath: "/img/events/2021/mma/mma2k21logo.png",
-			expired: true,
-			show: true
-		}
-	  ]	
+      events: [
+        {
+          name: "assoc2022",
+          title: "MMA 2022",
+          desc: "Descrizione",
+          imgPath: "/img/events/2022/assoc/icon.jpg",
+          expired: false,
+          show: false,
+        },
+        {
+          name: "mma2022",
+          title: "MMA 2022",
+          desc: "L'evento annuale di incontro fra matricole e admin",
+          imgPath: "/img/events/2021/mma/mma2k21logo.png",
+          expired: false,
+          show: true,
+        },
+        {
+          name: "mma2021",
+          title: "MMA 2021",
+          desc: "L'evento annuale di incontro fra matricole e admin",
+          imgPath: "/img/events/2021/mma/mma2k21logo.png",
+          expired: true,
+          show: true,
+        },
+      ],
+      categories: [
+        {
+          desc: "In arrivo",
+          expired: false,
+        },
+        {
+          desc: "Passati",
+          expired: true,
+        },
+      ],
     };
   },
 });
