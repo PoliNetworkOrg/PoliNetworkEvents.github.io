@@ -1,3 +1,12 @@
 [
-
+	{
+		"question":"Perché c'è un limite al numero di partecipanti?",
+		"answer": "A causa delle dimensioni del locale e della presenza di altri clienti oltre a noi, è imposto un limite",
+		"id":1
+	},
+	{
+		"question":"Perché sarà data priorità ad Admin e Matricole?",
+		"answer": "A causa del limite al numero di persone abbiamo deciso di dare priorità alle matricole, che potranno anche confrontarsi con noi Admin",
+		"id":2
+	}
 ]

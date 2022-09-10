@@ -37,5 +37,6 @@ export default {
   'Ci vediamo la prossima volta!': 'Ci vediamo la prossima volta!',
   'Terminato': 'Terminato',
   'Errore': 'Errore',
-  'Torna alla Home': 'Torna alla Home'
+  'Torna alla Home': 'Torna alla Home',
+  'A causa delle dimensioni del locale e della presenza di altri clienti oltre a noi, è imposto un limite': 'A causa delle dimensioni del locale e della presenza di altri clienti oltre a noi, è imposto un limite'
 }

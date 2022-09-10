@@ -79,7 +79,7 @@
               <p class="text_medium" style="padding-top: 20px">
                 📅 {{ $t("Quando: 15 settembre 2022 ore 21:00") }}
               </p>
-              <p v-show="false" class="text_medium">
+              <p v-show="true" class="text_medium">
                 {{
                   $t(
                     "Il numero massimo di partecipanti è limitato e sarà data priorità ad Admin e Matricole"
