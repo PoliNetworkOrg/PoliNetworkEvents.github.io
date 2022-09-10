@@ -49,18 +49,10 @@
       <div class="dettaglievento">
         <div class="text_big">
           <p>
-            {{
-              $t(
-                "Grazie a tutti per essere venuti!"
-              )
-            }}
+            {{ $t("Grazie a tutti per essere venuti!") }}
           </p>
           <p>
-            {{
-              $t(
-                "Ci vediamo la prossima volta!"
-              )
-            }}
+            {{ $t("Ci vediamo la prossima volta!") }}
           </p>
         </div>
       </div>
@@ -73,7 +65,7 @@
           <div style="padding: 0.2rem"></div>
           <div class="flex">
             <div>
-              <img class="media" src="/img/events/2021/mma/mma2k21logo.png" />  
+              <img class="media" src="/img/events/2021/mma/mma2k21logo.png" />
             </div>
             <div>
               <p class="text_medium" style="padding-top: 20px">
@@ -113,7 +105,9 @@
           </div>
           <br />
           <hr />
-          <p v-if="questions.length" class="text_big" style="padding-top: 20px">FAQ</p>
+          <p v-if="questions.length" class="text_big" style="padding-top: 20px">
+            FAQ
+          </p>
           <div style="padding: 0.2rem"></div>
           <div style="max-width: 70rem; margin: auto">
             <div v-for="question in questions" :key="question.id">

@@ -46,12 +46,12 @@
     <!-- /.container -->
     <div v-if="expired == false">
       <hr />
-      <div class="dettaglievento" style="text-align:center;">
-       Tutti i dettagli dell'evento sono ancora da definire, non essendo ancora diventati associazione. <br />
-	   Indicativamente la festa sarà all'inizio dell'anno accademico 2022/2023
+      <div class="dettaglievento" style="text-align: center">
+        Tutti i dettagli dell'evento sono ancora da definire, non essendo ancora
+        diventati associazione. <br />
+        Indicativamente la festa sarà all'inizio dell'anno accademico 2022/2023
       </div>
     </div>
- 
   </div>
 </template>
 

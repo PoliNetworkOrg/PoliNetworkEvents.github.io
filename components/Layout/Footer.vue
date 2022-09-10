@@ -13,9 +13,7 @@
           style="font-size: calc(3px + 0.55rem + 0.35vw)"
         >
           Copyright &copy;
-          <a :href="'https://polinetwork.org/' + $i18n.locale"
-            >PoliNetwork</a
-          >
+          <a :href="'https://polinetwork.org/' + $i18n.locale">PoliNetwork</a>
         </p>
         <p
           class="m-0 text-center"
@@ -25,9 +23,15 @@
             padding-top: 10px;
           "
         >
-          <span><a style="color:inherit;" href="https://polinetwork.org/it/learnmore/official/">{{
-            $t("Questo sito non è affiliato al Politecnico di Milano")
-          }}</a></span>
+          <span
+            ><a
+              style="color: inherit"
+              href="https://polinetwork.org/it/learnmore/official/"
+              >{{
+                $t("Questo sito non è affiliato al Politecnico di Milano")
+              }}</a
+            ></span
+          >
         </p>
       </div>
       <!-- /.container -->

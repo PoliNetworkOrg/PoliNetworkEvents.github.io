@@ -10,7 +10,9 @@
         <h1>{{ $t("Errore") }} {{ error.statusCode }}</h1>
       </div>
       <div style="padding: 2rem"></div>
-      <a href="/"><LayoutButton>&nbsp;{{ $t("Torna alla Home") }}&nbsp;</LayoutButton></a>
+      <a href="/"
+        ><LayoutButton>&nbsp;{{ $t("Torna alla Home") }}&nbsp;</LayoutButton></a
+      >
     </div>
   </div>
 </template>

@@ -9,12 +9,12 @@ export default {
   props: {
     classParam: {
       type: String,
-      default: ''
+      default: "",
     },
     styleParam: {
       type: String,
-      default: ''
-    }
-  }
-}
+      default: "",
+    },
+  },
+};
 </script>
