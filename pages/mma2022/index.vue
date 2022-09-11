@@ -44,7 +44,7 @@
       </header>
     </div>
     <!-- /.container -->
-    <div v-if="expired == true">
+    <div v-if="expired">
       <hr />
       <div class="dettaglievento">
         <div class="text_big">
@@ -57,7 +57,20 @@
         </div>
       </div>
     </div>
-    <div v-if="expired == false">
+    <div v-if="full">
+      <hr />
+      <div class="dettaglievento">
+        <div class="text_big">
+          <p>
+            {{ $t("Purtoppo siamo al completo,") }}
+          </p>
+          <p>
+            {{ $t("se si liberaranno dei posti vi faremo sapere!") }}
+          </p>
+        </div>
+      </div>
+    </div>
+    <div v-else>
       <hr />
       <div class="dettaglievento">
         <p class="text_big">{{ $t("Dettagli Evento") }}</p>
@@ -131,6 +144,7 @@ export default Vue.extend({
     return {
       questions: questions2,
       expired: false,
+      full: true,
     };
   },
 });

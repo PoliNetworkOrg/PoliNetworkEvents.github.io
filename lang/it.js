@@ -38,5 +38,10 @@ export default {
   'Terminato': 'Terminato',
   'Errore': 'Errore',
   'Torna alla Home': 'Torna alla Home',
-  'A causa delle dimensioni del locale e della presenza di altri clienti oltre a noi, è imposto un limite': 'A causa delle dimensioni del locale e della presenza di altri clienti oltre a noi, è imposto un limite'
+  'A causa delle dimensioni del locale e della presenza di altri clienti oltre a noi, è imposto un limite': 'A causa delle dimensioni del locale e della presenza di altri clienti oltre a noi, è imposto un limite',
+  'In arrivo': 'In arrivo',
+  'Passati': 'Passati',
+  'Al Completo': 'Al Completo',
+  'Purtoppo siamo al completo,': 'Purtoppo siamo al completo,',
+  'se si liberaranno dei posti vi faremo sapere!': 'se si liberaranno dei posti vi faremo sapere!'
 }

@@ -38,5 +38,10 @@ export default {
   'Terminato': 'Ended',
   'Errore': 'Error',
   'Torna alla Home': 'Go back to Home',
-  'A causa delle dimensioni del locale e della presenza di altri clienti oltre a noi, è imposto un limite': 'Due to the dimensions of the venue and the presence of other people besides us, we have been given a limit'
+  'A causa delle dimensioni del locale e della presenza di altri clienti oltre a noi, è imposto un limite': 'Due to the dimensions of the venue and the presence of other people besides us, we have been given a limit',
+  'In arrivo': 'Coming',
+  'Passati': 'Past',
+  'Al Completo': 'Sold Out',
+  'Purtoppo siamo al completo,': 'We\'re sorry, it\'s sold out,',
+  'se si liberaranno dei posti vi faremo sapere!': 'if some spots will free, we\'ll let you know!'
 }

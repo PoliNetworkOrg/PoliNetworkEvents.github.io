@@ -40,7 +40,7 @@
       <div v-for="cat in categories" :key="cat.desc">
         <div style="padding-top: -5px"></div>
         <hr />
-        <div style="text-align: center">{{ cat.desc }}</div>
+        <div style="text-align: center">{{ $t(cat.desc) }}</div>
         <div style="padding-top: 10px"></div>
         <div class="event-list">
           <a
@@ -53,6 +53,9 @@
             <div>
               <div v-if="event.expired" class="expired-event">
                 {{ $t("Terminato") }}
+              </div>
+              <div v-if="!event.expired && event.full" class="expired-event">
+                {{ $t("Al Completo") }}
               </div>
               <img class="event-logo" :src="event.imgPath" />
               <div style="padding: 0.5rem"></div>
@@ -84,6 +87,7 @@ export default Vue.extend({
           imgPath: "/img/events/2022/assoc/icon.jpg",
           expired: false,
           show: false,
+          full: false,
         },
         {
           name: "mma2022",
@@ -92,6 +96,7 @@ export default Vue.extend({
           imgPath: "/img/events/2021/mma/mma2k21logo.png",
           expired: false,
           show: true,
+          full: true,
         },
         {
           name: "mma2021",
@@ -100,6 +105,7 @@ export default Vue.extend({
           imgPath: "/img/events/2021/mma/mma2k21logo.png",
           expired: true,
           show: true,
+          full: true,
         },
       ],
       categories: [
