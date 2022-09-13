@@ -96,7 +96,7 @@ export default Vue.extend({
           imgPath: "/img/events/2021/mma/mma2k21logo.png",
           expired: false,
           show: true,
-          full: true,
+          full: false,
         },
         {
           name: "mma2021",
