@@ -96,7 +96,7 @@ export default Vue.extend({
           imgPath: "/img/events/2021/mma/mma2k21logo.png",
           expired: true,
           show: true,
-          full: false,
+          full: true,
         },
         {
           name: "mma2021",
@@ -109,10 +109,10 @@ export default Vue.extend({
         },
       ],
       categories: [
-        {
+        /*{
           desc: "In arrivo",
           expired: false,
-        },
+        },*/
         {
           desc: "Passati",
           expired: true,

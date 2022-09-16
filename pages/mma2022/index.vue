@@ -57,7 +57,7 @@
         </div>
       </div>
     </div>
-    <div v-if="full == true">
+    <div v-else-if="full == true">
       <hr />
       <div class="dettaglievento">
         <div class="text_big">
@@ -143,8 +143,8 @@ export default Vue.extend({
   data() {
     return {
       questions: questions2,
-      expired: false,
-      full: false,
+      expired: true,
+      full: true,
     };
   },
 });
