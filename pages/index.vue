@@ -94,7 +94,7 @@ export default Vue.extend({
           title: "MMA 2022",
           desc: "L'evento annuale di incontro fra matricole e admin",
           imgPath: "/img/events/2021/mma/mma2k21logo.png",
-          expired: false,
+          expired: true,
           show: true,
           full: false,
         },
