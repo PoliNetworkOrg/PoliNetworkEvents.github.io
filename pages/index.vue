@@ -38,6 +38,7 @@
       </header>
 
       <div v-for="cat in categories" :key="cat.desc">
+        <div v-if="events.filter(e => e.expired == cat.expired && e.show).length > 0 ">
         <div style="padding-top: -5px"></div>
         <hr />
         <div style="text-align: center">{{ $t(cat.desc) }}</div>
@@ -66,6 +67,7 @@
               </span>
             </div>
           </a>
+          </div>
         </div>
       </div>
     </div>
@@ -109,10 +111,10 @@ export default Vue.extend({
         },
       ],
       categories: [
-        /*{
+        {
           desc: "In arrivo",
           expired: false,
-        },*/
+        },
         {
           desc: "Passati",
           expired: true,
