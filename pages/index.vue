@@ -216,7 +216,7 @@ a.single-event:hover {
 
 .event-desc {
   font-size: calc(3px + 0.4rem + 0.4vw);
-  color: black;
+  color: white;
   line-height: normal;
 }
 

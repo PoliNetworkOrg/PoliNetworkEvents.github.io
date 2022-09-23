@@ -19,7 +19,7 @@
           class="m-0 text-center"
           style="
             font-size: calc(3px + 0.3rem + 0.2vw);
-            color: #000000d9;
+            color: inherit;
             padding-top: 10px;
           "
         >

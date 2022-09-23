@@ -4868,30 +4868,30 @@ input[type="button"].btn-block {
         }
 
 .navbar-dark .navbar-brand {
-    color: #545454;
+    color: #bbbbbb;
 }
 
     .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-        color: #545454;
+        color: #bbbbbb;
     }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #545454;
+    color: #bbbbbb;
 }
 
     .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-        color: #545454;
+        color: #bbbbbb;
     }
 
     .navbar-dark .navbar-nav .nav-link.disabled {
-        color: #545454;
+        color: #bbbbbb;
     }
 
     .navbar-dark .navbar-nav .show > .nav-link,
     .navbar-dark .navbar-nav .active > .nav-link,
     .navbar-dark .navbar-nav .nav-link.show,
     .navbar-dark .navbar-nav .nav-link.active {
-        color: #545454;
+        color: #bbbbbb;
     }
 
 .navbar-dark .navbar-toggler {
@@ -7017,7 +7017,8 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-    background-color: white !important;
+    /*background-color: white !important; */
+	background: url('/img/events/2022/signatureblue/cover.jpg');
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
