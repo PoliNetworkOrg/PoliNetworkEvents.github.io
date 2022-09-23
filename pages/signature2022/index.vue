@@ -16,7 +16,7 @@
       >
         <div style="text-align: center">
           <h2 class="text_big">
-            <span>{{ $t("Assoc party") }} </span>
+            <span>{{ $t("SignatureBlue") }} </span>
           </h2>
           <h5 style="font-size: calc(0.5px + 1.05rem + 0.5vw)">
             <a :href="'https://polinetwork.org/' + $i18n.locale">
@@ -33,9 +33,13 @@
                 <span>
                   {{
                     $t(
-                      "PoliNetwork vuole festeggiare con voi l'avvenuta trasformazione in associazione studentesca!"
+                      "PoliNetwork chiama a sé tutti i soci, gli admin e i volontari!"
                     )
                   }}
+                </span>
+                <br />
+                <span>
+                  {{ $t("Siete pronti?") }}
                 </span>
               </p>
             </div>
@@ -44,12 +48,23 @@
       </header>
     </div>
     <!-- /.container -->
-    <div v-if="expired == false">
+    <div v-if="expired == false" style="text-align: center">
       <hr />
       <div class="dettaglievento" style="text-align: center">
-        Tutti i dettagli dell'evento sono ancora da definire, non essendo ancora
-        diventati associazione. <br />
-        Indicativamente la festa sarà all'inizio dell'anno accademico 2022/2023
+        Tutti i dettagli dell'evento sono ancora da definire.
+      </div>
+      <br />
+
+      <div>
+        <LayoutMap where="Politecnico di Milano Leonardo"></LayoutMap>
+      </div>
+      <br />
+      <span style="text-align: center"> Cover </span>
+      <div style="text-align: center">
+        <img
+          style="height: min(100rem, 20vh, 20vw)"
+          src="/img/events/2022/signatureblue/cover.jpg"
+        />
       </div>
     </div>
   </div>
@@ -63,8 +78,13 @@ export default Vue.extend({
       expired: false,
     };
   },
+  mounted() {
+    localStorage.setItem("mode", "darkmode");
+  },
 });
 </script>
+
+
 
 <style scoped>
 .dettaglievento {

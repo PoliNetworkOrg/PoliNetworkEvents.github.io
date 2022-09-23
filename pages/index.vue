@@ -83,12 +83,12 @@ export default Vue.extend({
       questions: questions2,
       events: [
         {
-          name: "assoc2022",
-          title: "MMA 2022",
-          desc: "Descrizione",
-          imgPath: "/img/events/2022/assoc/icon.jpg",
+          name: "signature2022",
+          title: "SignatureBlue",
+          desc: "L'evento del network, per il network",
+          imgPath: "/img/events/2022/signatureblue/signatureblue.png",
           expired: false,
-          show: false,
+          show: true,
           full: false,
         },
         {
