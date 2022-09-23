@@ -205,6 +205,7 @@ a.single-event:hover {
 
 .event-title {
   font-size: calc(4px + 0.6rem + 0.6vw);
+  color: rgb(128, 128, 255);
 }
 
 .event-logo {
