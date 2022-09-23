@@ -59,13 +59,6 @@
         <LayoutMap where="Politecnico di Milano Leonardo"></LayoutMap>
       </div>
       <br />
-      <span style="text-align: center"> Cover </span>
-      <div style="text-align: center">
-        <img
-          style="height: min(100rem, 20vh, 20vw)"
-          src="/img/events/2022/signatureblue/cover.jpg"
-        />
-      </div>
     </div>
   </div>
 </template>
