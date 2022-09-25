@@ -38,35 +38,39 @@
       </header>
 
       <div v-for="cat in categories" :key="cat.desc">
-        <div v-if="events.filter(e => e.expired == cat.expired && e.show).length > 0 ">
-        <div style="padding-top: -5px"></div>
-        <hr />
-        <div style="text-align: center">{{ $t(cat.desc) }}</div>
-        <div style="padding-top: 10px"></div>
-        <div class="event-list">
-          <a
-            class="single-event"
-            v-for="event in events"
-            :key="event.name"
-            :hreF="localePath(event.name)"
-            v-show="event.show && event.expired == cat.expired"
-          >
-            <div>
-              <div v-if="event.expired" class="expired-event">
-                {{ $t("Terminato") }}
+        <div
+          v-if="
+            events.filter((e) => e.expired == cat.expired && e.show).length > 0
+          "
+        >
+          <div style="padding-top: -5px"></div>
+          <hr />
+          <div style="text-align: center">{{ $t(cat.desc) }}</div>
+          <div style="padding-top: 10px"></div>
+          <div class="event-list">
+            <a
+              class="single-event"
+              v-for="event in events"
+              :key="event.name"
+              :hreF="localePath(event.name)"
+              v-show="event.show && event.expired == cat.expired"
+            >
+              <div>
+                <div v-if="event.expired" class="expired-event">
+                  {{ $t("Terminato") }}
+                </div>
+                <div v-if="!event.expired && event.full" class="expired-event">
+                  {{ $t("Al Completo") }}
+                </div>
+                <img class="event-logo" :src="event.imgPath" />
+                <div style="padding: 0.5rem"></div>
+                <span class="event-title"> {{ event.title }} </span>
+                <div style="padding: 0.5rem"></div>
+                <span class="event-desc">
+                  {{ $t(event.desc) }}
+                </span>
               </div>
-              <div v-if="!event.expired && event.full" class="expired-event">
-                {{ $t("Al Completo") }}
-              </div>
-              <img class="event-logo" :src="event.imgPath" />
-              <div style="padding: 0.5rem"></div>
-              <span class="event-title"> {{ event.title }} </span>
-              <div style="padding: 0.5rem"></div>
-              <span class="event-desc">
-                {{ $t(event.desc) }}
-              </span>
-            </div>
-          </a>
+            </a>
           </div>
         </div>
       </div>

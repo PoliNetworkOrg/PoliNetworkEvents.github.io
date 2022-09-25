@@ -92,10 +92,7 @@
                 }}
               </p>
               <div class="buttonsEvent">
-                <a
-                  href="https://t.me/+za4EDqIOB_BmODg8"
-                  class="buttonLink"
-                >
+                <a href="https://t.me/+za4EDqIOB_BmODg8" class="buttonLink">
                   <LayoutButton>
                     {{
                       $t(
