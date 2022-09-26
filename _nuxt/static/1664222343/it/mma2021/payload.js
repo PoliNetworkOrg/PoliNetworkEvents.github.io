@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/it/mma2021", {data:[{}],fetch:{},mutations:void 0});

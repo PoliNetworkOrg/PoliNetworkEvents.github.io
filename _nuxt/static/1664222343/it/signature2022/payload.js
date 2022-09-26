@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/it/signature2022", {data:[{}],fetch:{},mutations:void 0});

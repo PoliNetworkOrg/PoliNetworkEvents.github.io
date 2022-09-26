@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/en/mma2022", {data:[{}],fetch:{},mutations:void 0});
