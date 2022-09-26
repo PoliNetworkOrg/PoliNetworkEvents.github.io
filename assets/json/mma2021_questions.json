@@ -1,0 +1,27 @@
+[
+	{
+		"question":"Perché c'è un limite al numero di partecipanti?",
+		"answer": "A causa delle restrizioni anti Covid-19 il locale ha imposto questo limite",
+		"id":1
+	},
+	{
+		"question":"Perché sarà data priorità ad Admin e Matricole?",
+		"answer": "A causa del limite al numero di persone abbiamo deciso di dare priorità alle matricole, che potranno anche confrontarsi con noi Admin",
+		"id":2
+	},
+	{
+		"question":"Perché il form mi dice che non ho l'autorizzazione ad accedere?",
+		"answer": "Devi accedere utilizzando l'account Microsoft fornito dal Politecnico (nome.cognome@mail.polimi.it oppure codicepersona@polimi.it), questo è per assicurarci che tu sia effettivamente uno studente del Politecnico",
+		"id":3
+	},
+	{
+		"question":"Dovrò esibire il Green Pass all'ingresso del locale?",
+		"answer": "Sì, dato che gran parte delle pertinenze del locale sono al chiuso e comunque non sarà possibile rispettare le regole di distanziamento, il Green Pass o un certificato equivalente sarà obbligatorio. È inoltre consigliato portare con sé un documento di identità con foto e in corso di validità",
+		"id":1
+	},
+	{
+		"question":"Quali sono e come verranno trattati i dati inviati tramite il form di iscrizione?",
+		"answer": "Il form raccoglie il Codice Persona (equivalente all'email con Nome e Cognome) e il tag Telegram o numero di telefono. Entro 24 ore dal termine dell'evento tutti i dati saranno cancellati. Utilizzeremo queste informazioni per accertare l'appartenenza al Politecnico di Milano come Matricole o Admin e per mandare comunicazioni inerenti l'evento. I dati sono gestiti da Diego Aldarese, organizzatore dell'evento. Trovate i contatti di Diego nella pagina contatti.",
+		"id":4
+	}
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "name": "contact-us",
+    "path": "/contact-us",
+    "component": "D:\\\\git\\\\PoliNetwork\\\\PoliNetworkEvents.github.io\\\\pages\\\\contact-us.vue",
+    "chunkName": "pages/contact-us"
+  },
+  {
+    "name": "index___en",
+    "path": "/en",
+    "component": "D:\\\\git\\\\PoliNetwork\\\\PoliNetworkEvents.github.io\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  },
+  {
+    "name": "index___it",
+    "path": "/it",
+    "component": "D:\\\\git\\\\PoliNetwork\\\\PoliNetworkEvents.github.io\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  },
+  {
+    "name": "mma2021",
+    "path": "/mma2021",
+    "component": "D:\\\\git\\\\PoliNetwork\\\\PoliNetworkEvents.github.io\\\\pages\\\\mma2021\\\\index.vue",
+    "chunkName": "pages/mma2021/index"
+  },
+  {
+    "name": "mma2022",
+    "path": "/mma2022",
+    "component": "D:\\\\git\\\\PoliNetwork\\\\PoliNetworkEvents.github.io\\\\pages\\\\mma2022\\\\index.vue",
+    "chunkName": "pages/mma2022/index"
+  },
+  {
+    "name": "signature2022",
+    "path": "/signature2022",
+    "component": "D:\\\\git\\\\PoliNetwork\\\\PoliNetworkEvents.github.io\\\\pages\\\\signature2022\\\\index.vue",
+    "chunkName": "pages/signature2022/index"
+  },
+  {
+    "name": "contact-us___en",
+    "path": "/en/contact-us",
+    "component": "D:\\\\git\\\\PoliNetwork\\\\PoliNetworkEvents.github.io\\\\pages\\\\contact-us.vue",
+    "chunkName": "pages/contact-us"
+  },
+  {
+    "name": "mma2021___en",
+    "path": "/en/mma2021",
+    "component": "D:\\\\git\\\\PoliNetwork\\\\PoliNetworkEvents.github.io\\\\pages\\\\mma2021\\\\index.vue",
+    "chunkName": "pages/mma2021/index"
+  },
+  {
+    "name": "mma2022___en",
+    "path": "/en/mma2022",
+    "component": "D:\\\\git\\\\PoliNetwork\\\\PoliNetworkEvents.github.io\\\\pages\\\\mma2022\\\\index.vue",
+    "chunkName": "pages/mma2022/index"
+  },
+  {
+    "name": "signature2022___en",
+    "path": "/en/signature2022",
+    "component": "D:\\\\git\\\\PoliNetwork\\\\PoliNetworkEvents.github.io\\\\pages\\\\signature2022\\\\index.vue",
+    "chunkName": "pages/signature2022/index"
+  },
+  {
+    "name": "contact-us___it",
+    "path": "/it/contact-us",
+    "component": "D:\\\\git\\\\PoliNetwork\\\\PoliNetworkEvents.github.io\\\\pages\\\\contact-us.vue",
+    "chunkName": "pages/contact-us"
+  },
+  {
+    "name": "mma2021___it",
+    "path": "/it/mma2021",
+    "component": "D:\\\\git\\\\PoliNetwork\\\\PoliNetworkEvents.github.io\\\\pages\\\\mma2021\\\\index.vue",
+    "chunkName": "pages/mma2021/index"
+  },
+  {
+    "name": "mma2022___it",
+    "path": "/it/mma2022",
+    "component": "D:\\\\git\\\\PoliNetwork\\\\PoliNetworkEvents.github.io\\\\pages\\\\mma2022\\\\index.vue",
+    "chunkName": "pages/mma2022/index"
+  },
+  {
+    "name": "signature2022___it",
+    "path": "/it/signature2022",
+    "component": "D:\\\\git\\\\PoliNetwork\\\\PoliNetworkEvents.github.io\\\\pages\\\\signature2022\\\\index.vue",
+    "chunkName": "pages/signature2022/index"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\git\\\\PoliNetwork\\\\PoliNetworkEvents.github.io\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]
