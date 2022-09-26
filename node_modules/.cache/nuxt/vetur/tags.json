@@ -1,0 +1,32 @@
+{
+  "LayoutButton": {
+    "description": "Auto imported from components/Layout/Button.vue"
+  },
+  "LayoutDescrizione": {
+    "description": "Auto imported from components/Layout/Descrizione.vue"
+  },
+  "LayoutFooter": {
+    "description": "Auto imported from components/Layout/Footer.vue"
+  },
+  "LayoutFrame": {
+    "description": "Auto imported from components/Layout/Frame.vue"
+  },
+  "LayoutHorizontalLine": {
+    "description": "Auto imported from components/Layout/HorizontalLine.vue"
+  },
+  "LayoutLogo": {
+    "description": "Auto imported from components/Layout/Logo.vue"
+  },
+  "LayoutMap": {
+    "description": "Auto imported from components/Layout/Map.vue"
+  },
+  "LayoutNavigationBar": {
+    "description": "Auto imported from components/Layout/NavigationBar.vue"
+  },
+  "LayoutQuestion": {
+    "description": "Auto imported from components/Layout/Question.vue"
+  },
+  "LayoutXImage": {
+    "description": "Auto imported from components/Layout/XImage.vue"
+  }
+}
