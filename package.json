@@ -30,6 +30,6 @@
 		"babel-preset-stage-0": "^6.24.1"
 	},
 	"optionalDependencies": {
-		"fsevents": "^2.3.2"
+		"fsevents": "^2.3.3"
 	}
 }
