@@ -9,7 +9,7 @@
 		"generate": "nuxt generate"
 	},
 	"dependencies": {
-		"@nuxtjs/i18n": "^7.3.0",
+		"@nuxtjs/i18n": "^8.0.0",
 		"bootstrap": "^5.2.2",
 		"bootstrap-vue": "^2.23.1",
 		"core-js": "^3.33.2",
