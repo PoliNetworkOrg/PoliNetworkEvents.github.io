@@ -13,7 +13,7 @@
 		"bootstrap": "^5.3.3",
 		"bootstrap-vue": "^2.23.1",
 		"core-js": "^3.33.2",
-		"nuxt": "^3.11.2",
+		"nuxt": "^3.12.1",
 		"nuxt-i18n": "^6.28.1",
 		"nuxt-i18n-easy": "^1.5.1",
 		"regenerator-runtime": "^0.14.1",
